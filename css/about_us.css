@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content h2 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #edefec;
+    border-left: 6px solid #7ad2e6;
+    padding: 5px 10px;
+    color: #2096b2;
+    font-weight: normal;
+}

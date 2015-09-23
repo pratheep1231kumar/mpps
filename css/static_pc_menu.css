@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Main menu */
+
+/* Main menu */
+ul#menu {
+	color: #fff;
+	margin: 0;
+	padding: 0 0 0 6px;
+	height: 40px;
+	width: 954px;
+	position:relative;
+	z-index: 999;
+	background: url(../images/menu_bg.gif) repeat-x;
+}	
+ul#menu li {
+	/*display: inline;*/
+	list-style: none;
+}
+ul#menu li.mega {
+	float:left;
+	height: 36px;
+	background: url(../images/menu_seperation.gif) no-repeat right top;
+	padding: 9px 0 0 0; 
+}
+ul#menu li.mega.last {
+	background: none;
+}
+ul#menu li.mega h2 {
+	_font-size: 1.4em;
+}
+ul#menu li.mega a {
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 15px;
+	margin: 0 3px 0 0px;
+
+}
+ul#menu li.mega a:hover {
+	text-decoration: none;
+	background: #f6f6f6;
+	padding: 8px 15px;
+	margin: 0 3px 0 0;
+	color: #0f6da0;
+}
+
+
+ul#menu li#menuItem10 h2 a {
+	width: 87px;
+}
+
+ul#menu li#menuItem1 h2 a:hover,
+ul#menu li#menuItem2 h2 a:hover,
+ul#menu li#menuItem3 h2 a:hover,
+ul#menu li#menuItem4 h2 a:hover,
+ul#menu li#menuItem5 h2 a:hover,
+ul#menu li#menuItem6 h2 a:hover,
+ul#menu li#menuItem7 h2 a:hover,
+ul#menu li#menuItem8 h2 a:hover,
+ul#menu li#menuItem9 h2 a:hover,
+ul#menu li#menuItem10 h2 a:hover {padding: 8px 15px 16px 15px; background: #f6f6f6; }
+
+ul#menu li.hovering h2 a {
+	z-index:200;
+}
+
+ul#menu li#menuItem1.hovering h2 a ,
+ul#menu li#menuItem2.hovering h2 a ,
+ul#menu li#menuItem3.hovering h2 a ,
+ul#menu li#menuItem4.hovering h2 a ,
+ul#menu li#menuItem5.hovering h2 a ,
+ul#menu li#menuItem6.hovering h2 a ,
+ul#menu li#menuItem7.hovering h2 a ,
+ul#menu li#menuItem8.hovering h2 a ,
+ul#menu li#menuItem9.hovering h2 a ,
+ul#menu li#menuItem10.hovering h2 a {padding: 8px 15px 16px 15px; color: #0f6da0; height: 36px; background: #f6f6f6;}
+
+ul#menu li.mega div.megapanel {
+	width: 380px;
+	position: absolute;
+	z-index: 100;
+	top: 40px;
+	left: 5px;
+	padding: 10px;
+	background: #f6f6f6;
+	border: 3px solid #a8a8a8;
+	border-top:none;
+	color: #930;
+}
+
+ul#menu li.mega div.megapanel {
+	display: none;
+}
+ul#menu li.mega div.megapanel img {
+	position: absolute;
+	top: 0;
+	left:0;
+}
+ul#menu li.mega div.megapanelMenu2 {left: 70px;}
+ul#menu li.mega div.megapanelMenu3 {left: 153px;}
+ul#menu li.mega div.megapanelMenu4 {left: 263px;}
+ul#menu li.mega div.megapanelMenu5 {left: 263px;}
+ul#menu li.mega div.megapanelMenu6 {left: 440px;}
+ul#menu li.mega div.megapanelMenu7 {left: 470px;}
+ul#menu li.mega div.megapanelMenu8 {left: 530px;}
+ul#menu li.mega div.megapanelMenu9 {left: 571px;}
+ul#menu li.mega div.megapanelMenu10 {left: 354px;}
+
+ul#menu li.hovering div.megapanel {
+	display: none;
+}
+ul#menu li.mega div div.col {
+	width: 170px;
+	display:block;
+	float:left;
+	margin: 0 5px 0 15px;
+	display: inline;
+}
+ul#menu li.mega div.megapanel a {
+	display:inline;
+	color: #300;
+	padding: 0;
+	background-image: none;
+	text-decoration: underline;
+}
+ul#menu li.mega div.megapanel h3 {
+	color: #666666;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 7px;
+	position: relative;
+	left: -10px;
+	padding: 3px 0 0 20px;
+	background:  #f6f6f6 url(../images/menu_bullet.png) no-repeat left center;
+}
+ul#menu li.mega div.megapanel h3 a {
+	color: #666666;
+	text-decoration:none;
+}
+ul#menu li.mega div.megapanel h3 a:hover {
+	color: #0f6da0;
+	text-decoration: underline;
+	background: none;
+	padding:0;
+	margin:0;
+}
+ul#menu li.mega div.megapanel ul {
+
+	list-style-type:none;
+	margin: 0 0 5px 0;
+	padding-top:0px;
+	padding-left:10px;
+}
+ul#menu li.mega div.megapanel ul li {
+	background: none;
+	padding: 1px 0;
+}
+ul#menu li.mega div.megapanel ul li a{
+	background: none;
+	color: #666;
+	font-size: 1em;
+	font-weight:normal;
+	text-decoration: none;
+}
+ul#menu li.mega div.megapanel ul  li a:hover{
+	background: none;
+	color: #0f6da0;
+	text-decoration: underline;
+	padding-left: 0;
+}
+
+.new_link {
+	font-size:12px;
+	font-weight:normal;
+}

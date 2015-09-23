@@ -1,0 +1,280 @@
+/* CSS Document */
+
+#about_us_inner_main_content #gdc_inner_main_content p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#fs_promo_explain p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#fp_promo_explain p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#pilot_promo_explain p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#its_promo_explain p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#weather_promo_explain p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#fuel_promo_explain p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#datalink_promo_explain p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#oem_promo_explain p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+#forms_table th{
+color: #246E9F;
+font-size: 13px;
+align:left;
+}
+
+#about_us_inner_main_content h3{
+	font-size: 13px;
+	color: #246e9f;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+.contentTxt {
+	padding-left: 25px;
+	padding-bottom: 10px;
+	list-style-type:none;
+}
+
+.DefaultListStyle {
+	padding-left: 25px;
+	padding-bottom: 10px;
+	list-style-type: circle;
+}
+
+
+.nivoSlider {
+margin-top:5px;
+}
+
+#content #promo_area .gdchome_services_promo{
+	position:absolute;  
+	top:-3px;
+	left:0;
+	width:950px;
+	height:214px;
+	/*background:url(../../images/services_promo_bg.gif) top repeat-x;
+	border: 5px solid #76d3e5;*/
+	z-index:500;
+	visibility:hidden;
+}
+
+
+#content #promo_area .gdchome_services_promo img {
+	float:left;
+	padding-top: 0px;
+	margin-top:1px;
+}
+
+#content #promo_area .gdchome_services_promo .services_content {
+	float:right;
+	padding:10px;
+	width:700px;
+}
+
+#content #promo_area .gdchome_services_promo .services_content h2 {
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+#content #promo_area .gdchome_services_promo .services_content p {
+	padding: 10px 0;
+	font-weight:bold;
+}
+
+#content #promo_area .gdchome_services_promo .services_content ul {
+	padding-left:15px;
+}
+
+#content #promo_area .gdchome_services_promo .services_content li {
+	list-style:url(../../images/list_bullet.gif);
+	padding-bottom:10px;
+}
+
+#content #promo_area .gdchome_services_promo .services_content .read_more {
+	margin-top:0;
+}
+
+#about_us_inner_main_content p { 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#gdc_banner{
+	height: 255px;
+}
+
+
+#address p{
+	padding-top:10px;
+	
+	}
+	
+.customer_support_table {
+	border-collapse:collapse; 
+	border:1px solid #b8b8b8;
+}
+
+.customer_support_table td {
+	border:1px solid #b8b8b8;
+	padding:5px;
+}
+
+.customer_support_table .alt_row {
+	background : #f8f8f8;
+}
+
+.news_updates {
+	padding-right:10px;
+	padding-left:15px;
+	font-size : 12px;
+}
+
+.news_updates li {
+	list-style:none;
+	margin-top:15px;
+	padding-left:20px;
+	background:url(../../images/static_images/calendar.gif) no-repeat;
+}
+
+.news_updates h3 {
+	padding:3px 0 0 7px;
+	font-size:13px;
+	color: #246e9f;
+}
+
+.news_updates p {
+	padding-top:10px;
+	padding-left:8px;
+}
+#primus_epic_explain h6
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#2096b2;
+	margin-top: 10px;
+    
+}
+
+#primus_epic_content p
+{
+	
+	padding-top:8px !important;
+	padding-bottom:8px !important;
+	
+}
+
+#primus_epic_inner_content {
+	
+	padding:10px;
+	min-height:410px;
+	padding-left:0;
+	font-size:12px;
+}
+
+#primus_epic_inner_content .inner_main_content {
+	padding: 10px 0 10px 15px;
+	font-size:12px;
+}
+
+#weather_promo_explain h4
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#2096b2;
+	margin-top: 10px;
+    
+}
+
+#fms_letter_explain .fms_letter
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#2096b2;
+	padding-top:5px;
+	
+    
+}
+
+.fms_news_bullet {
+	list-style-type: none;
+	padding-left: 40px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-top:10px;
+}
+
+.fms_news_bullet li {
+	padding-left: 25px;
+	padding-bottom: 10px;
+	background: url(../../images/list_bullet.gif) no-repeat 0 5px;
+	list-style-type: none;
+}
+
+.fms_bold
+{
+	padding-left:15px;	
+}
+#icao_faq_explain p{
+	padding-top: 5px; 
+	padding-bottom: 5px;
+}
+.new_lt_td_color{
+	background-color:#95B3D7;
+	color:#fff;
+}
+.new_lt_td_drkcolor{
+	background-color:#4F81BD;
+	color:#fff;
+}
+.leftspacing{
+	padding-left:10px;
+}
+.nw_lt_sub_title_fm{
+	color:#000;
+
+	
+}
+.pilot_trining_video_st{
+	color:#00B070;
+	font-size:13px;
+	}
+.nl_space_20{
+	height:20px;
+	}
+.nl_space_10{
+	height:10px;
+}
