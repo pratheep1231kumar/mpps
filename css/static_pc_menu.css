@@ -13,7 +13,7 @@ ul#menu {
 	width: 954px;
 	position:relative;
 	z-index: 999;
-	background: url(../images/menu_bg.gif) repeat-x;
+	background: #2A2B8C;
 }	
 ul#menu li {
 	/*display: inline;*/
