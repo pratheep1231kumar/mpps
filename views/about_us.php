@@ -121,18 +121,13 @@
                 <td>
                 	<h5>Nagasailaja Karri - General Manager (Web Design And India Operations)</h5>
                     <p align="justify">                    	
-                        Naga Sailaja Karri is certified professional in Personal Management Industrial Relations and Labor welfare from recognized 
-                        university in India. 
-						She has 3 years experience as a Junior Accounts officer in BSNL (Bharat Sanchar Nigam Ltd) and she managed national level 		
-                        programs at BSNL and followed core processes, operations and maintenance standards; Worked as Manager for DesigneOne 
-                        Graphics Pvt Ltd for 5 years. Handled several projects. Recognized for the ability to deliver pristine work, be a creative 
-                        problem solver, have great interpersonal skills and possess an excellent work ethic. Currently Working on and with a team 
-                        of XYZ Handling multiple projects XXX and on time or ahead schedule completion with partner rewords and recognizations Tech
-                         Back ground She is continuously develops her Professional skills in different Gov and Private industries and explores 
-                         emerging technologies to provide quality of work.
-						Very much customer focused and provide HUE focused Solutions. She is Intended to build a career with leading environment 		
-                        with committed and dedicated people.
-						She is always willing to work as key player in challenging and creative environment.
+						Naga Sailaja Karri is certified professional in Personal Management Industrial Relations and Labour welfare from recognized
+                         university in India. She has 3 years experience as a Junior Accounts officer in BSNL (Bharat Sanchar Nigam Ltd) and 
+                         managed national level programs at BSNL and followed core processes, operations and maintenance standards. Worked as 
+                         Manager for DesigneOne Graphics Pvt Ltd for 5 years. Handled several projects of Advertising. Recognized for the ability 
+                         to deliver pristine work, be a creative problem solver, have great interpersonal skills and possess an excellent work 
+                         ethic. She is Intended to build a career with leading environment with committed and dedicated people. She is always 
+                         willing to work as key player in challenging and creative environment.
                     </p>
             	</td>                        
             </tr>                             
