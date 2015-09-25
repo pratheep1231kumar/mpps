@@ -28,7 +28,7 @@
 			 Follow us</a>
     	</div>
 		<div id="twitter">
-		     <a href="https://www.twitter.com" target="_blank">
+		     <a href="https://twitter.com/search?q=mpps%20innovators&src=typd" target="_blank">
 		     <img src="../images/twitter_icon.gif" alt="Follow us on Twitter">
 			  Follow us </a>
     	</div>

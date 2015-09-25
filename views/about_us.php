@@ -62,7 +62,7 @@
                     </p>-->
                 </td>
             </tr>
-            <tr class="table_color">
+            <!--<tr class="table_color">
 	            <td><img class="ogah" src="../images/ogah.jpg" alt="Ogah Owei"/></td>
                 <td>
                 	<h5>Ogah Owei - General Manager (Cost Control)</h5>
@@ -75,7 +75,7 @@
                          He has advance level expertise in latest engineering tools and techniques, cost evaluation techniques.
                     </p>
             	</td>                        
-            </tr>
+            </tr>-->
             <tr class="table_color">
 	            <td><img class="paul" src="../images/paul.jpg" alt="PAUL ONAJI"/></td>
                 <td>
