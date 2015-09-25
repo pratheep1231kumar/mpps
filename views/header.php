@@ -28,9 +28,9 @@
 			 Follow us</a>
     	</div>
 		<div id="twitter">
-		     <a href="" target="_blank">
-		     <img src="../images/twitter_icon.gif" alt="Follow us on Twitter"></a>
-			  Follow us
+		     <a href="https://www.twitter.com" target="_blank">
+		     <img src="../images/twitter_icon.gif" alt="Follow us on Twitter">
+			  Follow us </a>
     	</div>
 	</div>
 
@@ -64,7 +64,7 @@
 	  </li>
 
 	   <li id="menuItem7" class="mega">
-	   	<h2><a href="contact.php" class="new_link">Contact</a></h2>
+	   	<h2><a href="contact.php" class="new_link">Contact Us</a></h2>
 	   </li>
 	</ul>
 
