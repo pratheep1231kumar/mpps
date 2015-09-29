@@ -11,7 +11,9 @@
 
 <script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/jquery.hoverIntent.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="../js/mpps.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/home.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
@@ -66,6 +68,10 @@
 	   <li id="menuItem7" class="mega">
 	   	<h2><a href="contact.php" class="new_link">Contact Us</a></h2>
 	   </li>
+       
+       <!--<li id="menuItem8" class="mega">
+	   	<h2><a href="my_account.php" class="new_link">My Account</a></h2>
+	   </li>-->
 	</ul>
 
 

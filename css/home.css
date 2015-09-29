@@ -627,6 +627,11 @@ a.footer_link:hover {
 	padding-left:0;
 }
 
+#popup_inner_content {
+	padding:10px;
+	padding-left:0;
+}
+
 #about_us_inner_content .inner_main_content {
 	padding: 10px 0 10px 15px;
 	font-size:12px;
@@ -1047,7 +1052,7 @@ a.jtxfooter_link:hover {
     border-collapse: collapse;
     margin: 0;
     text-align: left;
-    width: 100%;
+    width: 961px;
 	margin-top:10px;
 }
 
@@ -1064,9 +1069,16 @@ a.jtxfooter_link:hover {
 	font-size:12px;	
 }
 
-li {
+#inner_content li {
 	padding-left: 25px;
 	padding-bottom: 10px;
+	background: url(../images/list_bullet.gif) no-repeat 0 5px;
+	list-style-type: none;
+}
+
+#popup_inner_content li {
+	padding-left: 15px;
+	padding-bottom: 5px;
 	background: url(../images/list_bullet.gif) no-repeat 0 5px;
 	list-style-type: none;
 }
@@ -1092,7 +1104,7 @@ img.sailu{
 }
 
 
-#inner_content h5
+#inner_content h5, #popup_inner_content h5
 {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:16px;
@@ -1123,44 +1135,58 @@ img.sailu{
 
 #otc-rig-hotspot1 {
     position: absolute;
-    top: 400px;
-    left: 470px;
+    top: 330px;
+    left: 100px;
 }
 
 #otc-rig-hotspot2 {
     position: absolute;
-    top: 360px;
-    left: 270px;
+    top: 430px;
+    left: 100px;
 }
 
 #otc-rig-hotspot3 {
     position: absolute;
-    top: 400px;
-    left: 130px;
+    top: 530px;
+    left: 100px;
 }
+
 
 #otc-rig-hotspot4{
     position: absolute;
-    top: 300px;
-    left: 370px;
+    top: 630px;
+    left: 100px;
 }
 
 #otc-rig-hotspot5 {
     position: absolute;
-    top: 500px;
-    left: 570px;
+    top: 330px;
+    left: 855px;
 }
 
 #otc-rig-hotspot6 {
     position: absolute;
-    top: 400px;
-    left: 870px;
+    top: 430px;
+    left: 855px;
 }
+
+#otc-rig-hotspot7 {
+    position: absolute;
+    top: 530px;
+    left: 855px;
+}
+
+#otc-rig-hotspot8 {
+    position: absolute;
+    top: 630px;
+    left: 855px;
+}
+
 
 .otc-pulse-button {
     display: block;
-    width: 18px;
-    height: 18px;
+    width: 26px;
+    height: 26px;
     font-size: 1.3em;
     font-weight: light;
     font-family: 'Trebuchet MS', sans-serif;
@@ -1171,7 +1197,6 @@ img.sailu{
     color: white;
     border: 5px solid #fff;
     border-radius: 50%;
-    background: #009cde;
     cursor: pointer;
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, .75);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, .75);
@@ -1185,5 +1210,163 @@ img.sailu{
     animation-direction: initial;
     animation-fill-mode: initial;
     animation-play-state: initial;
-	background-color: #FF0000;
+	background: url(../images/ashok_chakra.png);
+}
+
+.display_none{
+	display:none;
+}
+
+.popup_info{
+	position: absolute;
+    z-index: 5000;
+    margin-top: 0px;
+}
+
+.float_right{
+	float: right;
+    margin-bottom: 5px;
+}
+
+#mpps-rig-tip1 {
+    position: absolute;
+    top: 155px;
+    left: 30px;
+}
+
+#mpps-rig-tip2 {
+    position: absolute;
+    top: 310px;
+    left: 30px;
+}
+
+#mpps-rig-tip3 {
+    position: absolute;
+    top: 373px;
+    left: 30px;
+}
+
+#mpps-rig-tip4 {
+    position: absolute;
+    top: 493px;
+    left: 30px;
+}
+
+#mpps-rig-tip5 {
+    position: absolute;
+	top: 140px;
+    left: 700px;
+
+}
+
+#mpps-rig-tip6 {
+    position: absolute;
+	top: 193px;
+    left: 700px;
+}
+
+#mpps-rig-tip7 {
+    position: absolute;
+    top: 413px;
+    left: 700px;
+}
+
+#mpps-rig-tip8 {
+    position: absolute;
+    top: 493px;
+    left: 700px;
+}
+
+
+
+.popup_info_content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #23c7db;
+    border-radius: 6px 6px 6px 6px;
+    /* box-shadow: 0 0 6px #000000; */
+    color: #000000;      
+    padding: 4px 10px;
+    position: relative;
+    width: auto;
+    z-index: 5001;
+}
+
+.popup_info_arrow{
+	margin: -2px 0 0 13px;
+    position: relative;
+    width: 15px;
+    z-index: 5006;
+	float:left;
+	left:65px;
+}
+
+.popup_info_arrow_1{
+	margin: -2px 0 0 13px;
+    position: relative;
+    width: 15px;
+    z-index: 5006;
+	float:left;
+	left:150px;
+}
+
+#footer{
+	margin-top: 10px;
+}
+
+#footer .extended_area {
+    background: #2A2B8C; 
+}
+
+#footer .extended_area .services, .follow, .contact {
+	width: 215px;
+    padding: 10px 0 10px 20px;
+    float: left;
+    border-right: 1px solid #E3E3E3;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer .extended_area li {
+    list-style: none;
+    color: #d9ebf4;
+    line-height: 15px;
+}
+
+#footer .extended_area {
+    list-style: none;
+    color: #d9ebf4;
+    line-height: 15px;
+}
+
+#footer #facebook img{
+	height: 35px;
+	vertical-align:middle;
+}
+
+#footer .extended_area li.twitter{
+	background: url('../images/twitter_icon.gif') no-repeat;
+}
+
+#footer .extended_area li.facebook{
+	background: url('../images/') no-repeat;
+	height: 35px;
+}
+
+
+a.footer_link, a.footer_link:active{
+    color: #c2e7f3;
+    text-decoration: none;
+}
+
+#footer .copyright .terms {
+    width: 530px;
+    float: left;
+}
+
+#footer .copyright .copy {
+    width: 900px;
+    float: left;
+    text-align: center;
 }

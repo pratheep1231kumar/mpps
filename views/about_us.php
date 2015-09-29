@@ -134,7 +134,7 @@
         </table>
 	</div>    
 </div> 
-
+</div>
 <!-- Header starts -->
 <?php include_once("footer.php"); ?>
 <!-- Header ends -->
