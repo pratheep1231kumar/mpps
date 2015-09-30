@@ -77,24 +77,9 @@
             	</td>                        
             </tr>-->
             <tr class="table_color">
-	            <td><img class="paul" src="../images/paul.jpg" alt="PAUL ONAJI"/></td>
-                <td>
-                	<h5>Paul Onaji - General Manager (Africa West- East And South)</h5>
-                    <p align="justify">                    	
-                        Paul Onaji is a certified project management professional with several years’ experience in the Oil and Gas industry 
-                        providing support to drilling rigs in the areas of well construction operations, Project Management, asset management and 
-                        performance improvement. Recognized for the ability to deliver pristine work, be a creative problem solver, have great 
-                        interpersonal skills and possess an excellent work ethic. Experience in planning major out of service projects for offshore
-                         deepwater drilling rigs (Drill ships, Semi submersibles) in shipyards around the world. Projects include combinations of 
-                         major Upgrades and Repairs to Hull, drilling equipment, Derrick and structure, Accommodation, Power, Thrusters and 
-                         propulsion, SPS, UWILD.
-                    </p>
-            	</td>                        
-            </tr> 
-            <tr class="table_color">
 	            <td><img class="ali" src="../images/ali.jpg" alt="ali hussein"/></td>
                 <td>
-                	<h5>Ali Hussein - General Manager (Mena)</h5>
+                	<h5>Ali Hussein - General Manager (Middle East North Asia)</h5>
                     <p align="justify">                    	
 	                   Ali Hussein is a well-rounded professional with 8 years of technical and managerial experience in the offshore drilling 
                        units industry in Transocean for Jackups, Semi-Submersible and Ultra Deepwater DrillshipExperienced Rig Manager Asset, 
@@ -116,6 +101,21 @@
                     </p>
             	</td>                        
             </tr>         
+            <tr class="table_color">
+	            <td><img class="paul" src="../images/paul.jpg" alt="PAUL ONAJI"/></td>
+                <td>
+                	<h5>Paul Onaji - General Manager (Africa West- East And South)</h5>
+                    <p align="justify">                    	
+                        Paul Onaji is a certified project management professional with several years’ experience in the Oil and Gas industry 
+                        providing support to drilling rigs in the areas of well construction operations, Project Management, asset management and 
+                        performance improvement. Recognized for the ability to deliver pristine work, be a creative problem solver, have great 
+                        interpersonal skills and possess an excellent work ethic. Experience in planning major out of service projects for offshore
+                         deepwater drilling rigs (Drill ships, Semi submersibles) in shipyards around the world. Projects include combinations of 
+                         major Upgrades and Repairs to Hull, drilling equipment, Derrick and structure, Accommodation, Power, Thrusters and 
+                         propulsion, SPS, UWILD.
+                    </p>
+            	</td>                        
+            </tr>             
             <tr class="table_color">
 	            <td><img class="sailu" src="../images/sailu.jpg" alt="NAGASAILAJA KARRI"/></td>
                 <td>

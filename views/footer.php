@@ -22,7 +22,7 @@
        <div class="follow">
        		<h4>Follow us</h4>
 			<ul>
-                <li class="twitter">
+                <li class="facebook">
 					<a href="https://www.facebook.com/MPPSInnovators" target="_blank">
 						 Follow us on Facebook
                      </a>                
