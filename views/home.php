@@ -4,7 +4,7 @@
 <!-- Header ends -->
 
 <div class="scrolling_text">
-	<marquee behavior="alternate">Support offshore organizations to accomplish projects at low overhead costs</marquee>
+	<marquee behavior="alternate"><b>Mission</b> - Support offshore organizations to accomplish projects at low overhead costs</marquee>
 </div>
 
 <div>

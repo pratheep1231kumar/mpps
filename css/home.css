@@ -578,9 +578,9 @@ position:relative;
 }
 
 #footer .copyright {
-	background:#004164;
+	background:#EFEFEF;
 	padding:5px 10px;
-	color:#ffffff;
+	color:#000000;
 }
 
 #footer .copyright .terms {
@@ -603,9 +603,6 @@ a.footer_link:hover {
 	color:#ffffff;
 	text-decoration:none;
 }
-
-
-/* ------------------------------------------ Inner page styles -------------------------------------------- */
 
 
 #inner_sidebar {
@@ -1372,15 +1369,15 @@ a.footer_link, a.footer_link:active{
 
 .scrolling_text{
 	color: #2A2B8C;
-    font-weight: bold;
 	font-family: Cursive;
+	font-size:12pt;
 }
 
 .scroll_down_1{
 	z-index:2;
 	position:absolute;
 	left:192;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1392,7 +1389,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:252;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1404,7 +1401,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:312;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1416,7 +1413,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:372;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1428,7 +1425,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:432;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1440,7 +1437,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:492;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1452,7 +1449,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:552;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1464,7 +1461,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:612;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1476,7 +1473,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:672;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
@@ -1488,7 +1485,7 @@ a.footer_link, a.footer_link:active{
 	z-index:2;
 	position:absolute;
 	left:732;
-	top:155;
+	top:160;
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
