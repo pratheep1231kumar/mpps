@@ -2,13 +2,17 @@
 /* CSS Document */
 
 body {
-    background: url('../images/mpps_bg.jpg');
+    background: url('../images/mpps_bg.jpg');	 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
     color: #515151;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 12px;
     margin: 0;
     padding: 0;
 }
+
 
 #wrapper {
     background: none repeat scroll 0 0 #FFFFFF;
