@@ -2,13 +2,14 @@
 /* CSS Document */
 
 body {
-    background: none repeat scroll 0 0 #EFEFEF;
+    background: url('../images/mpps_bg.jpg');
     color: #515151;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 12px;
     margin: 0;
     padding: 0;
 }
+
 #wrapper {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #E0E0E0;
@@ -1493,5 +1494,233 @@ a.footer_link, a.footer_link:active{
 	width:100;	
 }
 
+/* New button styles */
+.btn_lblue {
+	padding:5px 15px !important;
+	background:url(../images/buttons/btn_lblue.gif) repeat-x !important;
+	border: 1px solid #5ad0ee !important;
+	behavior: url(../images/buttons/pie.htc) !important;
+	border-radius:3px !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	margin-right:5px !important;
+	color:#000000 !important;
+	cursor:pointer !important;
+}
 
+.btn_lblue:hover {
+	background:url(../images/buttons/btn_lblue_hover.gif) repeat-x !important;
+	border: 1px solid #5ad0ee !important;
+}
+
+.btn_lblue:active {
+	background:url(../images/buttons/btn_lblue_click.gif) repeat-x !important;
+	border: 1px solid #5ad0ee !important;
+}
+
+.btn_lblue_small {
+	padding:2px 10px; !important;
+	background:url(../images/buttons/btn_lblue.gif) repeat-x; !important;
+	border: 1px solid #5ad0ee; !important;
+	behavior: url(../images/buttons/pie.htc); !important;
+	border-radius:3px; !important;
+	font-family:Arial, Helvetica, sans-serif; !important;
+	font-size:12px; !important;
+	font-weight:bold; !important;
+	margin-right:5px; !important;
+	color:#000000; !important;
+}
+
+.btn_lblue_small:hover {
+	background:url(../images/buttons/btn_lblue_hover.gif) repeat-x !important;
+	border: 1px solid #5ad0ee !important;
+}
+
+.btn_lblue_small:active {
+	background:url(../images/buttons/btn_lblue_click.gif) repeat-x !important;
+	border: 1px solid #5ad0ee !important;
+}
+
+.btn_lgrey {
+	padding:5px 15px !important;
+	background:url(../images/buttons/btn_lgrey.gif) repeat-x !important;
+	border: 1px solid #adadad !important;
+	behavior: url(../images/buttons/pie.htc) !important;
+	border-radius:3px !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	margin-right:5px !important;
+	color:#000000 !important;
+	cursor:pointer !important;
+}
+
+.btn_lgrey:hover {
+	background:url(../images/buttons/btn_lgrey_hover.gif) repeat-x !important;
+	border: 1px solid #adadad !important;
+}
+
+.btn_lgrey:active {
+	background:url(../images/buttons/btn_lgrey_click.gif) repeat-x !important;
+	border: 1px solid #5ad0ee !important;
+}
+
+.btn_lgrey_small {
+	padding:2px 10px !important;
+	background:url(../images/buttons/btn_lgrey.gif) repeat-x !important;
+	border: 1px solid #adadad !important;
+	behavior: url(../images/buttons/pie.htc) !important;
+	border-radius:3px !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	margin-right:5px !important;
+	color:#000000 !important;
+	cursor:pointer !important;
+}
+
+.btn_lgrey_small:hover {
+	background:url(../images/buttons/btn_lgrey_hover.gif) repeat-x !important;
+	border: 1px solid #adadad !important;
+}
+
+.btn_lgrey_small:active {
+	background:url(../images/buttons/btn_lgrey_click.gif) repeat-x !important;
+	border: 1px solid #5ad0ee !important;
+}
+
+.btn_dblue {
+	padding:5px 15px !important;
+	background:url(../images/buttons/btn_dblue.gif) repeat-x !important;
+	border: 1px solid #274150 !important;
+	behavior: url(../images/buttons/pie.htc) !important;
+	border-radius:3px !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	margin-right:5px !important;
+	color:#FFF !important;
+	cursor:pointer !important;
+}
+
+.btn_dblue:hover {
+	background:url(../images/buttons/btn_dblue_hover.gif) repeat-x !important;
+	border: 1px solid #274150 !important;
+}
+
+.btn_dblue:active {
+	background:url(../images/buttons/btn_dblue_click.gif) repeat-x !important;
+	border: 1px solid #274150 !important;
+}
+
+.btn_dblue_small {
+	padding:2px 10px !important;
+	background:url(../images/buttons/btn_dblue.gif) repeat-x !important;
+	border: 1px solid #274150 !important;
+	behavior: url(../images/buttons/pie.htc)!important;
+	border-radius:3px !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	margin-right:5px !important;
+	color:#FFF !important;
+}
+
+.btn_dblue_small:hover {
+	background:url(../images/buttons/btn_dblue_hover.gif) repeat-x;
+	border: 1px solid #274150;
+}
+
+.btn_dblue_small:active {
+	background:url(../images/buttons/btn_dblue_click.gif) repeat-x;
+	border: 1px solid #274150;
+}
+
+.btn_violet_bulb {
+	padding:3px 0;
+	width:30px;
+	background: #93a7ca url(../images/buttons/ff_bulb_off.gif) bottom no-repeat;
+	border: 1px solid #6a85b0;
+	border-right:0;
+	behavior: url(../images/buttons/pie.htc);
+	border-radius:3px 0 0 3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.btn_violet_bulb:hover {
+	background: #93a7ca url(../images/buttons/ff_bulb_off_hover.gif) bottom no-repeat;
+	border: 1px solid #6a85b0;
+	border-right:0;
+}
+
+.btn_violet_bulb:active {
+	background: #93a7ca url(../images/buttons/ff_bulb_off.gif) bottom no-repeat;
+	border: 1px solid #6a85b0;
+	border-right:0;
+}
+
+.btn_violet_bulb_on {
+	padding:3px 0;
+	width:30px;
+	background: #93a7ca url(../images/buttons/ff_bulb_on.gif) bottom no-repeat;
+	border: 1px solid #6a85b0;
+	border-right:0;
+	behavior: url(../images/buttons/pie.htc);
+	border-radius:3px 0 0 3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.btn_violet_bulb_on:hover {
+	background: #93a7ca url(../images/buttons/ff_bulb_on_hover.gif) bottom no-repeat;
+	border: 1px solid #6a85b0;
+	border-right:0;
+}
+
+.btn_violet_bulb_on:active {
+	background: #93a7ca url(../images/buttons/ff_bulb_on.gif) bottom no-repeat;
+	border: 1px solid #6a85b0;
+	border-right:0;
+}
+
+.btn_violet {
+	padding:3px 10px;
+	background: #93a7ca url(../images/buttons/btn_violet.gif) bottom repeat-x;
+	border: 1px solid #6a85b0;
+	behavior: url(../images/buttons/pie.htc);
+	border-radius: 0 3px 3px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.btn_violet:hover {
+	background: #7c93bc url(../images/buttons/btn_violet_hover.gif) bottom repeat-x;
+	border: 1px solid #6a85b0;
+}
+
+.btn_violet:active {
+	background: #93a7ca url(../images/buttons/btn_violet_click.gif) bottom repeat-x;
+	border: 1px solid #6a85b0;
+}
+
+.btn_lgrey_disabled {
+	padding:5px 15px !important;
+	background:#EEEEEE !important;
+	border: 1px solid #CBCBCB !important;
+	behavior: url(../images/buttons/pie.htc) !important;
+	border-radius:3px !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	margin-right:5px !important;
+	color:#B7B7B7 !important;
+}
 

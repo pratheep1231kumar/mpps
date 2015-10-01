@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mpps_field_style {
+    padding: 0px 0 0px 0px;
+    border: 0px;
+}
+
+#create_form .mpps_label {
+    float: left;
+    margin: 5px 0;
+    text-align: left;
+    width: 100px;
+}
+
+#create_form .mpps_input {
+    border: 1px solid #5fc7e0;
+    margin: 5px 0;
+    width: 200px;
+    height: 30px;
+	padding: 10px 12px;
+}
+
+.mpps_input_full {
+    border: 1px solid #5fc7e0;
+    margin: 5px 0;
+    width: 403px;
+    height: 30px;
+	padding: 10px 12px;
+}
+
+#create_form .mpps_input_select {
+    border: 1px solid #5fc7e0;
+    margin: 5px 0;
+    width: 104px;
+    height: 30px;
+	font-family:Cursive;
+	font-size:14px;
+}
+
+#create_form .mpps_input_label {
+    border: 0px;
+    margin: 5px 0;
+    width: 81px;
+    height: 30px;
+	font-family:Cursive;
+	font-weight:bold;
+	font-size:14px;
+    background-color:#FFFFFF;
+}
+
+.field_header{
+	padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+div .left_div_form {
+    float: left;
+    border-right: 1px solid #5fc7e0;
+    margin: 0 10px 10px 0px;
+    padding-right: 5px;
+    width: 50%;
+	padding-bottom:293px;
+	padding-top:30px;
+}
+
+#create_button, #login_button{
+	width: 403px;
+}
+
+.mpps_input_select_sex{
+	border: 1px solid #5fc7e0;
+    margin: 5px 0;
+    width: 403px;
+    height: 30px;
+	font-family:Cursive;
+	font-size:14px;
+}
+
+.gender_class{
+	height: 30px;
+	font-family:Cursive;
+	font-size:14px;
+	margin-top:10px;
+}
+
+.redio_input{
+    border: 1px solid #5fc7e0;
+    margin: 0px 5px;
+}
+
+#create_user_form{
+	padding-top:30px;
+}
