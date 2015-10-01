@@ -26,12 +26,26 @@
 		        	<p align="justify">PLOT NO.85, VASANTH NAGAR ROAD,</p> 
 	        		<p align="justify">NEAR IX PHASE, KPHB COLONY,</p>
 			        <p align="justify">HYDERABAD-072. T.S.</p>
-        			<p align="justify">MOBILE: +91 9908928984</p>
+        			<p align="justify">MOBILE: +91 9885262464</p>
 		        	<p align="justify">EMAIL: MPPSINNOVATORS@GMAIL.COM</p>
                  </td>
                  <td>
 			        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.3734977701506!2d78.38221719999999!3d17.4896753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb922045229131%3A0xc7473d3818b53676!2sHIG-83%2C+VNR+Residency%2C+Bagath+Singh+Nagar+Phase+2%2C+Kukatpally%2C+Hyderabad%2C+Telangana+500085!5e0!3m2!1sen!2sin!4v1443232169073" width="666" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                  </td>
+             </tr>
+             <tr class="table_color">
+             	<td>
+        			<h5>EGYPT :</h5>
+		        	<p align="justify">2 GIZA STREET,</p>
+                    <p align="justify">AL-MOSALAS NEXT TO INDOOR HALL,</p> 
+	        		<p align="justify">AL-ARBAEEN, </p>
+                    <p align="justify">SUEZ AL-HARAMEEN TOWER,</p>
+			        <p align="justify">9TH FLOOR, SUITE 26,</p>
+        			<p align="justify">SUEZ,</p>
+		        	<p align="justify">EGYPT</p>
+                    <p align="justify">Mobile: +2 010 6151 1113</p>               
+                </td>
+             	<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55297.31761044701!2d32.5114949!3d29.97706325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1456257838ae4111%3A0x1f0a056a97ea1bc0!2sSuez%2C+Suez+Governorate%2C+Egypt!5e0!3m2!1sen!2sin!4v1443719440592" width="666" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></td>             
              </tr>
           </table>
     </div>

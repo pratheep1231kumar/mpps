@@ -10,9 +10,13 @@
 	</div>    
 	<h5>Web Site management :</h5>
     <ul class="bullet">
-    	<li>Web Designing</li>
-        <li>Animation</li>
-        <li>Web Server Management</li>
+         <li>Web Design solutions including Graphic Design, Domain registration, Web Hosting,
+			SEO and Flsh Animation Ads</li>
+        <li>Print Media Services including Graphic Design, Package Design, Poster Design, Brand Identity
+			for Carporate companies</li>
+        <li>Online Advertising for Social Media</li>
+        <li>Making TV Commercials and Corporate Videos</li>
+        <li>Illustration & Art Work</li>
     </ul>
    	<h5>3D model printing - Plans to launch in Feb 2016</h5>
 </div>

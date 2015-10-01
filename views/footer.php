@@ -39,8 +39,8 @@
         <div class="contact">
            	 <h4>Contact Us</h4>
              <p>
-			 <strong>Email</strong> :<a class="footer_link" href="mailto:pratheep1231kumar@gmail.com"> mpps@gmail.com </a> <br> 
-			 <strong>India</strong> : +91 9999999999 <br> 
+			 <strong>Email</strong> :<a class="footer_link" href="mailto:pratheep1231kumar@gmail.com"> mppsinnovators@gmail.com </a> <br> 
+			 <strong>India</strong> : +91 9885262464<br> 
 			</p>
           </div>
           <div class="clear"></div>

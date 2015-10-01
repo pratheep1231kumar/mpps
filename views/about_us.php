@@ -21,7 +21,7 @@
         <table id="about_us_table" class="display">
         	<tr class="table_color">
 	            <td><img class="satya" src="../images/satya.jpg" alt="SATYA VEERAMALLA"/></td>
-                <td>
+                <td class="td_bg_color">
 					<h5>Satya Veeramalla - Founder MPPS Innovators</h5>
                     <p align="justify">
                         Satya began his career as a marine engineer with Indian Navy Ships, being promoted to middle management, continuing to work
@@ -103,7 +103,7 @@
             </tr>         
             <tr class="table_color">
 	            <td><img class="paul" src="../images/paul.jpg" alt="PAUL ONAJI"/></td>
-                <td>
+                <td class="td_bg_color">
                 	<h5>Paul Onaji - General Manager (Africa West- East And South)</h5>
                     <p align="justify">                    	
                         Paul Onaji is a certified project management professional with several years’ experience in the Oil and Gas industry 
