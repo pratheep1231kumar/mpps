@@ -39,7 +39,7 @@
 </div>
 
 <div id="mpps_services">
-	<img src="../images/mpps_banner.png" alt="MPPS - Innovators">
+	<img src="../images/mpps_banner.jpg" alt="MPPS - Innovators">
 </div>
 
 
