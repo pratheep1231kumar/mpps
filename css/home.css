@@ -1319,6 +1319,10 @@ img.sailu{
     background: #2A2B8C; 
 }
 
+#footer .services {
+    min-height: 100px; 
+}
+
 #footer .extended_area .services, .follow, .contact {
 	width: 215px;
     padding: 10px 0 10px 20px;

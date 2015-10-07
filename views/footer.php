@@ -6,7 +6,7 @@
 				<li><a class="footer_link" href="pm_offshore.php">Project Management Offshore</a></li>
 				<li><a class="footer_link" href="uwild_scope.php">UWILD Scope And Execution</a></li>
                 <li><a class="footer_link" href="detailed_scope.php">SPS Scope Preparation</a></li>
-				<li><a class="footer_link" href="hull_surevey.php">Hull Preservation Survey</a></li>
+				<li><a class="footer_link" href="hull_survey.php">Hull Preservation Survey</a></li>
             <ul>
 		</div>
 		<div class="services">
@@ -39,7 +39,7 @@
         <div class="contact">
            	 <h4>Contact Us</h4>
              <p>
-			 <strong>Email</strong> :<a class="footer_link" href="mailto:pratheep1231kumar@gmail.com"> mppsinnovators@gmail.com </a> <br> 
+			 <strong>Email</strong> :<a class="footer_link" href="mailto:mppsinnovators@gmail.com"> mppsinnovators@gmail.com </a> <br> 
 			 <strong>India</strong> : +91 9885262464<br> 
 			</p>
           </div>
