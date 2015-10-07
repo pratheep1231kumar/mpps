@@ -7,13 +7,19 @@
  	<h2>About Us</h2>
     
    	<div id="about_us_inner_main_content" class="inner_main_content">
-		<p align="justify">We are MPPS Innovators, established in July 2015. Team emerged from the offshore drilling industry formed this project management organisation to support the industry for safe delivery of projects within low budget and optimised timeline (additional time in operations).
+		<p align="justify">We are MPPS Innovators, established in Aberdeen from July 2015. Team emerged from the offshore drilling industry, 
+        	formed this project management organisation to support the Oil & Gas Industry for safe delivery of projects within low budget and 
+            optimised timeline (additional time in operations) Safely.
 		</p>
         <p align="justify">
-      Why are we confident about this strategy, becasue we had delivered the projects SAFELY within budget and schedule, most importantly low overhead costs, our track record proves this. We have experience in reactivation of MODU's from cold stack to warm stack to ready to operate.
+	      Why we are confident about this strategy? Because we celebrated the success of similar projects SAFELY within budget and schedule.
         </p>
         <p align="justify">
-        This is unique experience and we are proud to announce that "WE CAN DO TOGETHER".
+    	   The catch here is our strong TEAM engagement with great attitude towards helping each other and celebrate success together. The 
+           opportunity is low overhead costs, this is our track record.
+        </p>
+        <p align="justify">
+        	This is unique experience and we are proud to announce that "WE CAN DO TOGETHER". 
         </p>
 
     <div id="our_team">
@@ -24,16 +30,15 @@
                 <td class="td_bg_color">
 					<h5>Satya Veeramalla - Founder MPPS Innovators</h5>
                     <p align="justify">
-                        Satya began his career as a marine engineer with Indian Navy Ships, being promoted to middle management, continuing to work
-                         in military discipline, and served in US Army camp, Kuwait and Ministry of Defence engineering services in Oman. His next 
-                        experience was in the public sector with drilling rig builders in Singapore, beginning in middle management and progressing
-                         to project management. Satya learned to deliver newly built drilling rigs on time and within budget. This experience 
-                         provided 
-                        offshore drilling rigs (MODU) project management opportunities in Singapore, Philippines, Egypt, Namibia, Luanda, Gabon, 
-                        Nigeria, Tanzania, LasPalmas, Ivory Coast, Houston, Aberdeen, Rotterdam and Esbjerg, Denmark ranging from $50 million to 
-                        $130millions. Also an expert in project audit. Satya being focal point for stakeholder management and team (multi cultured 
-                        global resources) motivation to achieve the project safely, it was necessary to be master of risk management and safety 
-                        processes that accomplished all projects with zero recordable incidents.
+                       Satya began his career as a marine engineer with Indian Navy Ships, being promoted to middle management, continuing to 
+                       work in military discipline, served in US Army camp, Kuwait and Ministry of Defence engineering services in Oman. His step
+                        change experience was in the public sector with drilling rig builders in Singapore, beginning in middle management and 
+                        progressing to project management. Satya learned to deliver newly built drilling rigs on time and within budget. This 
+                        experience provided offshore drilling rigs (MODU) project management opportunities in Singapore, Philippines, Egypt, 
+                        Namibia, Luanda, Gabon, Nigeria, Tanzania, LasPalmas, Ivory Coast, Houston, Aberdeen, Rotterdam and Esbjerg, Denmark 
+                        ranging from $50 million to $130millions. Also an expert in project audit. Satya being focal point for stakeholder 
+                        management and team (multi cultured global resources) motivation to achieve the project safely, it was necessary to be 
+                        master of risk management and safety processes that accomplished all projects with zero recordable incidents. 
                     </p>
                     <!--<p align="justify">
                         Satya is proud to present the following selected highlights from his career:
@@ -81,23 +86,7 @@
                 <td>
                 	<h5>Ali Hussein - General Manager (Middle East North Asia)</h5>
                     <p align="justify">                    	
-	                   Ali Hussein is a well-rounded professional with 8 years of technical and managerial experience in the offshore drilling 
-                       units industry in Transocean for Jackups, Semi-Submersible and Ultra Deepwater DrillshipExperienced Rig Manager Asset, 
-                       Project Manager for UDW Drillship, managed multi-million dollar project
-						executions, rig maintenance and management systems, drilling operations, equipment reliability, budget preparation and 	
-                        customer relations. Ali has extensive experience in various departments; Asset
-						Management, Operations, upgrade projects and various shipyards worldwide for offshore drilling units Europe, Mediterranean,	
-                         Middle East and Africa. Ali is quite adept at building effective working relationships in diverse and multi-cultural 
-                         environments. Most recently, as a Rig Manager Asset for UDW Drillship, at Transocean, Ali was responsible for the 	
-                         management of rig assets in accordance with core processes, operations and maintenance standards;
-						HSE and Operational Integrity Leadership, Operations, Contract Management and Customer Relations, Asset and Life Cycle 			
-                        Management Project Management and Supply Chain Management, Financial Management.Previously, Ali was Project Manager, 	
-                        Operations at Transocean, where he managed multi-million dollar Out Of Service projects for Ultra-Deepwater dual-activity 
-                        drillship – 6th generation - with operations managed projects offshore in the Indian Ocean, Tanzania. The project involved 
-                        three main packages: Drilling/Mechanicals, Well Control System Re-certification and Class/Marine.Throughout his progressive
-                         career, Ali worked his way up from Operations Engineer, Assistant Rig Manager, Constructions Manager, and Project Manager 
-                         to his most recent position as Rig Manager Asset for UDW Drillship. Ali Hussein holds a Bachelor of Petroleum 
-                         EngineeringEngineering, Suez Canal University in Egypt.
+	                  Ali Hussein is a well-multi skilled professional with 8 years of technical and managerial experience in the offshore drilling industry in Transocean. Experienced Rig Manager Asset, Project Manager for UDW Drillship, managed multi-million dollar project executions, rig maintenance and management systems, drilling operations, equipment reliability, budget preparation and customer relations. Ali has extensive project execution and operations experience in various shipyards worldwide. Ali is quite adept at building effective working relationships in diverse and multi-cultural environments. Most recently, as a Rig Manager Asset for UDW Drillship, at Transocean. Ali worked his way up from Operations Engineer, Assistant Rig Manager, Constructions Manager, and Project Manager to his most recent position as Rig Manager Asset for UDW Drillship. Ali Hussein holds a Bachelor of Petroleum Engineering from Suez Canal University in Egypt. 
                     </p>
             	</td>                        
             </tr>         
@@ -106,13 +95,13 @@
                 <td class="td_bg_color">
                 	<h5>Paul Onaji - General Manager (Africa West- East And South)</h5>
                     <p align="justify">                    	
-                        Paul Onaji is a certified project management professional with several years’ experience in the Oil and Gas industry 
-                        providing support to drilling rigs in the areas of well construction operations, Project Management, asset management and 
-                        performance improvement. Recognized for the ability to deliver pristine work, be a creative problem solver, have great 
-                        interpersonal skills and possess an excellent work ethic. Experience in planning major out of service projects for offshore
-                         deepwater drilling rigs (Drill ships, Semi submersibles) in shipyards around the world. Projects include combinations of 
-                         major Upgrades and Repairs to Hull, drilling equipment, Derrick and structure, Accommodation, Power, Thrusters and 
-                         propulsion, SPS, UWILD.
+						Paul Onaji is a certified project management professional (PMP) with several years’ experience in the Oil and Gas 
+                        Industry providing support to drilling rigs in the areas of well construction operations, Project Management, Asset 
+                        Management and performance improvement. Recognized for the ability to deliver pristine work, be a creative problem 
+                        solver, have great interpersonal skills and possess an excellent work ethic. Experience in planning major out of service 
+                        projects for offshore deepwater drilling rigs (Drill ships, Semi submersibles) in shipyards around the world. Projects 
+                        include combinations of major Upgrades and Repairs to Hull, drilling equipment, Derrick and structure, Accommodation, 
+                        Power, Thrusters and propulsion, SPS, UWILD.
                     </p>
             	</td>                        
             </tr>             
@@ -121,13 +110,11 @@
                 <td>
                 	<h5>Nagasailaja Karri - General Manager (Web Design And India Operations)</h5>
                     <p align="justify">                    	
-						Naga Sailaja Karri is certified professional in Personal Management Industrial Relations and Labour welfare from recognized
-                         university in India. She has 3 years experience as a Junior Accounts officer in BSNL (Bharat Sanchar Nigam Ltd) and 
-                         managed national level programs at BSNL and followed core processes, operations and maintenance standards. Worked as 
-                         Manager for DesigneOne Graphics Pvt Ltd for 5 years. Handled several projects of Advertising. Recognized for the ability 
-                         to deliver pristine work, be a creative problem solver, have great interpersonal skills and possess an excellent work 
-                         ethic. She is Intended to build a career with leading environment with committed and dedicated people. She is always 
-                         willing to work as key player in challenging and creative environment.
+						Naga Sailaja Karri is certified professional in Personal Management Industrial Relations and Labour Welfare from 
+                        recognized university in India. She has 3 years experience as a Junior Accounts officer in BSNL (Bharat Sanchar Nigam 
+                        Ltd) and managed national level programs at BSNL and followed core processes, operations and maintenance standards. With 
+                        the learned accounting skills joined DesigneOne Graphics Pvt Ltd as Manager Administration for 5 years. Achieved multiple
+                         animated projects on time. Experienced in strategic planning and business analysis in India and global markets.
                     </p>
             	</td>                        
             </tr>                             

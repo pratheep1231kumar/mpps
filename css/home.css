@@ -1238,38 +1238,38 @@ img.sailu{
 
 #mpps-rig-tip2 {
     position: absolute;
-    top: 310px;
+    top: 312px;
     left: 30px;
 }
 
 #mpps-rig-tip3 {
     position: absolute;
-    top: 373px;
+    top: 355px;
     left: 30px;
 }
 
 #mpps-rig-tip4 {
     position: absolute;
-    top: 493px;
+    top: 405px;
     left: 30px;
 }
 
 #mpps-rig-tip5 {
     position: absolute;
-	top: 140px;
+	top: 127px;
     left: 700px;
 
 }
 
 #mpps-rig-tip6 {
     position: absolute;
-	top: 193px;
+	top: 180px;
     left: 700px;
 }
 
 #mpps-rig-tip7 {
     position: absolute;
-    top: 413px;
+    top: 412px;
     left: 700px;
 }
 
@@ -1730,5 +1730,21 @@ a.footer_link, a.footer_link:active{
 
 .td_bg_color{
 	background-color:#EDFEFE;
+}
+
+.mouse_pointer{
+	cursor:pointer;
+}
+
+.address_style{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#flag_style img{
+	height: 15px;
+    width: 30px;
+    vertical-align: middle;
+    margin-left: 5px;
 }
 

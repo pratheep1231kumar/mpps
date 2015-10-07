@@ -151,7 +151,8 @@
 			    	<li>Engage with end user and rig management</li>
                     <li>Prepare the requirements as required by rig crew</li>                 
                     <li>Prepare the requirements as required by rig management</li>                 
-                    <li>Prepare the requirements as required by the class and flag</li>                                                         
+                    <li>Prepare the requirements as required by the class and flag</li>
+                    <li>Prepare detailed Scope</li>                                                         
                 </ul>
 	    </div>
     </div>
@@ -169,6 +170,11 @@
                     <li>Electrical</li>                 
                     <li>Drilling Package Controls</li>                                                                        
                 </ul>
+ 			<h5>Execute scanning cloud data :</h5>		
+			    <ul class="bullet">
+			    	<li>Hazardous and nonhazardous areas of the MODU’s</li>
+                    <li>Prepare Zoomdoc</li>                                                                                  
+                </ul>                
 	    </div>
     </div>
     <div class="popup_info_arrow">
@@ -182,8 +188,8 @@
  			<h5>Hull Preservation Survey :</h5>		
 			    <ul class="bullet">
 			    	<li>NDT of Main structure, Sub Structure and tanks</li>
-                    <li>Prepare repair plan</li>                 
-                    <li>Prepare prefabrication drawings</li>                 
+                    <li>Prepare Engineering report</li>                 
+                    <li>Prepare repair plan and fabrication drawings</li>                 
                     <li>Execute pre fabrication scope</li>                                                         
 					<li>Install during project execution</li>                                                                             
                 </ul>
@@ -199,13 +205,12 @@
 		<div id="popup_inner_content">
  			<h5>MODU's Reactivation :</h5>		
 			    <ul class="bullet">
-			    	<li>Cold Stack to Warm Stack with standard procedures</li>
-                    <li>Warm stack to Scope preparation</li>                 
-                    <li>Scope Execution</li>                                                                        
-					<li>Class approvals follow up</li>                                                                        
+			    	<li>From cold stack to warm stack and ready to operate strategy implementation</li>
+                    <li>Scope Execution through successful project management tools and techniques</li>                 
+                    <li>Class approvals follow up</li>                                                                        
                     <li>Commissioning the MODU</li>                                                                        
                     <li>Ready to Operate (Customise to end user requirements)</li>                                                                        
-                    <li>Operations Mobilisation As Planned</li>                                                                                            
+                    <li>Operations mobilisation as Planned is achieved safely</li>                                                                                            
                 </ul>
 	    </div>
     </div>

@@ -10,13 +10,12 @@
 	</div>    
 	<h5>Reactivation MODU's :</h5>
     <ul class="bullet">
-    	<li>Cold Stack to Warm Stack with standard procedures</li>
-        <li>Warm stack to Scope preparation</li>
-        <li>Scope Execution</li>
+    	<li>From cold stack to warm stack and ready to operate strategy implementation</li>
+        <li>Scope Execution through successful project management tools and techniques</li>
         <li>Class approvals follow up</li>
         <li>Commissioning the MODU</li>
         <li>Ready to Operate (Customise to end user requirements)</li>
-        <li>Operations Mobilisation As Planned</li>
+        <li>Operations mobilisation as Planned is achieved safely</li>
     </ul>
 </div>
     

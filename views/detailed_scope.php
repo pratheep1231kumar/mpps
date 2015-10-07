@@ -14,6 +14,7 @@
 		<li>Prepare the requirements as required by rig crew</li>    
 	    <li>Prepare the requirements as required by rig management</li>
     	<li>Prepare the requirements as required by the class and flag</li>
+        <li>Prepare detailed Scope</li>
     </ul>
 </div>
     
