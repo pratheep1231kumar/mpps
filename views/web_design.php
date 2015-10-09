@@ -13,7 +13,7 @@
          <li>Web Design solutions including Graphic Design, Domain registration, Web Hosting,
 			SEO and Flash Animation Ads</li>
         <li>Print Media Services including Graphic Design, Package Design, Poster Design, Brand Identity
-			for Carporate companies</li>
+			for Corporate Companies</li>
         <li>Online Advertising for Social Media</li>
         <li>Making TV Commercials and Corporate Videos</li>
         <li>Illustration & Art Work</li>

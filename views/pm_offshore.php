@@ -34,7 +34,7 @@
   	    <li>Introduce daily schedule updates and mitigation actions</li>
         <li>Generate reports for management - weekly and monthly</li>
         <li>Forecast the schedle activities weekly and daily</li>
-        <li>Clearly identify the timeline buffers and plan to reduce safel</li>
+        <li>Clearly identify the timeline buffers and plan to reduce safely</li>
     </ul>
 
 	<h5>Detailed Budget Preparation :</h5>
@@ -50,7 +50,7 @@
 	<h5>Risk Management :</h5>
     <ul class="bullet">
     	<li>Prepare risk register and plan mitigation actions</li>
-        <li>Assign PIC for each mitigation action and trget date to accomplish</li>
+        <li>Assign PIC for each mitigation action and target date to accomplish</li>
         <li>Manage trigger points and look for improvement opportunities</li>
     </ul>
 

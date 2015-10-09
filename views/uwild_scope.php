@@ -10,7 +10,7 @@
 	</div>
 	<h5>Class and any maintenance Scope :</h5>
     <ul class="bullet">
-    	<li>Prepare the Class requirement scope and coordiante</li>
+    	<li>Prepare the Class requirement scope and coordinate</li>
         <li>Optimise the UWILD window to include the other scopes and execute safely</li>
     </ul>
 </div>

@@ -16,9 +16,8 @@
 			        <div class='address_style'>23 ELLON ROAD,</br>
                     	ABERDEEN- AB23 8ED,</br>
 			        	UNITED KINGDOM</br></br>
-                        <a class="contact_mail" href="mailto:pm.admin@mppsinnovators.co.uk">pm.admin@mppsinnovators.co.uk</a> <br/>
-		                <a class="contact_mail" href="mailto:pm.eea.admin@mppsinnovators.co.uk">pm.eea.admin@mppsinnovators.co.uk</a> <br/>
-        		        <a class="contact_mail" href="mailto:pm.ame.admin@mppsinnovators.co.uk">pm.ame.admin@mppsinnovators.co.uk</a> <br/>                        Mobile: +44 7850788090</br>
+						<a class="contact_mail" href="mailto:pm.admin@mppsinnovators.co.uk">pm.admin@mppsinnovators.co.uk</a> <br/>
+                        Mobile: +44 7850788090</br>
                     	Direct: +44 1224 707297</br>
                 	</div> 
                 </td>
@@ -36,6 +35,7 @@
                     	SUEZ AL-HARAMEEN TOWER,</br>
 			        	9TH FLOOR, SUITE 26,</br>
         				SUEZ, EGYPT</br></br>
+                        <a class="contact_mail" href="mailto:pm.eea.admin@mppsinnovators.co.uk">pm.eea.admin@mppsinnovators.co.uk</a> <br/>
                     	Mobile: +2 010 6151 1113</br>
                     </div>               
                 </td>
@@ -49,7 +49,7 @@
 	        			NEAR IX PHASE, KPHB COLONY,</br>
 			        	HYDERABAD-072. T.S.</br></br>
                         <a class="contact_mail" href="mailto:wd.admin@mppsinnovators.co.uk">wd.admin@mppsinnovators.co.uk</a> <br/>
-        				MOBILE: +91 9885262464</br>
+        				Mobile: +91 9885262464</br>
                     </div>
                  </td>
                  <td>

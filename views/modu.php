@@ -18,7 +18,7 @@
     </ul>
 	<h5>Execute scanning cloud data :</h5>
     <ul class="bullet">
-    	<li>Hazardous and nonhazardous areas of the MODU’s</li>
+    	<li>Hazardous and nonhazardous areas of the MODU's</li>
         <li>Prepare Zoomdoc</li>
     </ul>    
 </div>

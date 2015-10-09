@@ -255,10 +255,10 @@
 </div>
 
 <div id="tech_27_img_div">
-	<img src="../images/tech27.png">
+	<a href="http://tech27.com/" target="_blank"><img src="../images/tech27.png"></a>
 </div>
 <div id="uft_img_div">
-	<img src="../images/uft_logo.jpg">
+	<a href="http://www.uft-engineering.com/" target="_blank"><img src="../images/uft_logo.jpg"></a>
 </div>
 
 <!-- Header starts -->

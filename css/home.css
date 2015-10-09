@@ -1772,22 +1772,22 @@ a.footer_link, a.footer_link:active{
 
 #tech_27_img_div{
     position: absolute;
-    top: 775px;
+    top: 800px;
     left: 30px;
 }
 
 #tech_27_img_div img{
-	height: 100px;
+	height: 75px;
     width: 150px;	
 }
 
 #uft_img_div{
     position: absolute;
-    top: 775px;
+    top: 800px;
     left: 823px;
 }
 
 #uft_img_div img{
-	height: 100px;
+	height: 75px;
     width: 150px;	
 }
