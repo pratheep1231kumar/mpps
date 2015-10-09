@@ -4,11 +4,15 @@
 <!-- Header ends -->
 
 <div class="scrolling_text">
-	<marquee behavior="alternate"><b>Mission</b> - Support offshore organizations to accomplish projects at low overhead costs</marquee>
+	<marquee behavior="scroll"><b>Mission</b> - Support offshore organizations to accomplish projects at low overhead costs</marquee>
 </div>
 
 <div>
-	<marquee class="scroll_down_1" style=""scrollamount="1" direction="down">Grow</marquee>
+	<marquee class="scroll_down_1" scrollamount="1" direction="down">
+    	Grow together along with offshore industry through strong cluster collaboration & partnership with offshore service providers globally and develop 
+        local continent and support in developing local continent
+    </marquee>
+	<!--<marquee class="scroll_down_1" style=""scrollamount="1" direction="down">Grow</marquee>
     <marquee class="scroll_down_2" style=""scrollamount="2" direction="down">Together</marquee>
     <marquee class="scroll_down_3" style=""scrollamount="3" direction="down">Along</marquee>
     <marquee class="scroll_down_4" style=""scrollamount="4" direction="down">With</marquee>
@@ -34,7 +38,7 @@
     <marquee class="scroll_down_4" style=""scrollamount="2" direction="down">In</marquee>
     <marquee class="scroll_down_5" style=""scrollamount="7" direction="down">Developing</marquee>
     <marquee class="scroll_down_6" style=""scrollamount="9" direction="down">Local</marquee>
-    <marquee class="scroll_down_7" style=""scrollamount="4" direction="down">Continent</marquee>
+    <marquee class="scroll_down_7" style=""scrollamount="4" direction="down">Continent</marquee>-->
     
 </div>
 
@@ -248,6 +252,13 @@
     <div class="popup_info_arrow_1">
           	<img src="../images/popup_bubble_pointer.png">
     </div>
+</div>
+
+<div id="tech_27_img_div">
+	<img src="../images/tech27.png">
+</div>
+<div id="uft_img_div">
+	<img src="../images/uft_logo.jpg">
 </div>
 
 <!-- Header starts -->

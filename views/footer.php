@@ -39,8 +39,10 @@
         <div class="contact">
            	 <h4>Contact Us</h4>
              <p>
-			 <strong>Email</strong> :<a class="footer_link" href="mailto:mppsinnovators@gmail.com"> mppsinnovators@gmail.com </a> <br> 
-			 <strong>India</strong> : +91 9885262464<br> 
+				<a class="footer_link" href="mailto:pm.admin@mppsinnovators.co.uk">pm.admin@mppsinnovators.co.uk</a> <br/>
+                <a class="footer_link" href="mailto:pm.admin@mppsinnovators.co.uk">pm.eea.admin@mppsinnovators.co.uk</a> <br/>
+                <a class="footer_link" href="mailto:pm.admin@mppsinnovators.co.uk">pm.ame.admin@mppsinnovators.co.uk</a> <br/> 
+			 	+44 7850788090<br/> 
 			</p>
           </div>
           <div class="clear"></div>

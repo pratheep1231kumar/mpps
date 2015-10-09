@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+#careers_inner_main_content p{
+	padding-top: 10px;
+}
+
 .mpps_field_style {
     padding: 0px 0 0px 0px;
     border: 0px;
@@ -54,14 +58,16 @@
     padding-bottom: 5px;
 }
 
-div .left_div_form {
+div .resources_left_div_form {
+    float: left;
+    border-right: 1px solid #5fc7e0;
     margin: 0 10px 0px 0px;
     padding-right: 5px;
     width: 50%;
-    padding-top: 140px;
-    padding-left: 250px;
-    min-height: 163px;
-    align-items: center;
+	padding-bottom:293px;
+	padding-top:30px;
+	min-height:163px;
+    max-width: 466px;
 }
 
 

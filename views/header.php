@@ -9,6 +9,8 @@
 <link type="text/css" href="../css/static_content.css?fetch_latest=107" rel="stylesheet" media="all">
 <link type="text/css" href="../css/default.css?fetch_latest=107" rel="stylesheet" media="screen">
 <link type="text/css" href="../css/my_account.css?fetch_latest=107" rel="stylesheet" media="screen">
+<link type="text/css" href="../css/resources.css?fetch_latest=107" rel="stylesheet" media="screen">
+
 
 <script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/jquery.hoverIntent.js" type="text/javascript" charset="utf-8"></script>
@@ -25,6 +27,12 @@
 		<div id="logo">
 			<img src="../images/mpps_logo.jpg" alt="MPPS - Innovators">
 		</div>
+        <div id="my_log_in">
+	        <a href="my_account.php">
+            	<input id='my_login_button' class="btn_dblue ui-button ui-widget ui-state-default ui-corner-all" id="id_create_aro" type="button" 
+                	value="My Log In" name="create" role="button" aria-disabled="false"/>
+            </a>
+        </div>
 		<div id="facebook">
 		     <a href="https://www.facebook.com/MPPSInnovators" target="_blank">
 		     <img src="../images/facebook.png" alt="Follow us on Facebook">
@@ -49,7 +57,7 @@
 	  </li>
 
 	  <li id="menuItem3" class="mega">
-	  	<h2><a href="pm_offshore.php" class="new_link">MPPS Services</a></h2>
+	  	<h2><a href="services_we_support.php" class="new_link">Services We Support</a></h2>
 	  	<div class="megapanel megapanelMenu3" style="width: 600px; display: none;">
 	  		<div class="col" style="width:270px;">
 	  			<h3><a href="pm_offshore.php">Project Management Offshore Drilling Rigs</a></h3>
@@ -66,13 +74,14 @@
 	     </div>
 	  </li>
 
-	   <li id="menuItem7" class="mega">
+	   <li id="menuItem4" class="mega">
+	   		<h2><a href="resources.php" class="new_link">Resources</a></h2>
+	   </li>
+
+	   <li id="menuItem5" class="mega">
 	   	<h2><a href="contact.php" class="new_link">Contact Us</a></h2>
-	   </li>
-       
-       <li id="menuItem8" class="mega">
-	   	<h2><a href="my_account.php" class="new_link">My Account</a></h2>
-	   </li>
+	   </li> 
+
 	</ul>
 
 

@@ -4,14 +4,14 @@
 <!-- Header ends -->
 
 <div id="inner_content">
- 	<h2>My Account</h2>
+ 	<h2>My Log In</h2>
    	<div id="login_user_form" class="left_div_form">
     	<div class="field_header"><h5>Log In:</h5></div>
         <form id="login_form" method="post" name="login_form" action>
         	<fieldset class="mpps_field_style">
         		<input type="text" title = "User Name" value placeholder = "User Name (Email Id)" name="user_name" id="user_name_value" maxlength="25" class="mpps_input_full">
                 </br>
-				<input type="text" title = "Password" value placeholder = "Password" name="password" id="password_value" maxlength="25" class="mpps_input_full">
+				<input type="password" title = "Password" value placeholder = "Password" name="password" id="password_value" maxlength="25" class="mpps_input_full">
                 </br>                
              </fieldset>             
         </form>
@@ -21,7 +21,7 @@
         </div>
     </div>
     
-	<div id="create_user_form">    	
+	<!--<div id="create_user_form">    	
     	<div class="field_header"><h5>New to MPPS ?</h5></div>
         <form id="create_form" method="post" name="create_user_form" action>
         	<fieldset class="mpps_field_style">
@@ -90,7 +90,7 @@
 		        </div>
             </fieldset>	
         </form>
-     </div>
+     </div>-->
 </div>
     
 <!-- Header starts -->

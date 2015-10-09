@@ -117,6 +117,19 @@ select {
 	color:#979797;
 }
 
+#header #my_log_in {
+	position:absolute;
+	top:20px; 
+	right:0px;
+	vertical-align:middle;
+	display: inline; 	
+	color:#979797;
+}
+
+#my_login_button {
+    width: 183px;
+}
+
 #header #facebook {
 	position:absolute;
 	top:50px; 
@@ -600,6 +613,11 @@ position:relative;
 }
 
 a.footer_link, a.footer_link:active, a.footer_link:visited {
+	color:#c2e7f3;
+	text-decoration:none;
+}
+
+a.contact_mail:active, a_contact_mail:visited{
 	color:#c2e7f3;
 	text-decoration:none;
 }
@@ -1319,7 +1337,7 @@ img.sailu{
     background: #2A2B8C; 
 }
 
-#footer .services {
+#footer .services,#footer .follow {
     min-height: 100px; 
 }
 
@@ -1391,7 +1409,7 @@ a.footer_link, a.footer_link:active{
 	font-size:12pt;
 	color:#FFFFFF;
 	height:720;
-	width:150;
+	width:650;
 }
 
 .scroll_down_2{
@@ -1752,3 +1770,24 @@ a.footer_link, a.footer_link:active{
     margin-left: 5px;
 }
 
+#tech_27_img_div{
+    position: absolute;
+    top: 775px;
+    left: 30px;
+}
+
+#tech_27_img_div img{
+	height: 100px;
+    width: 150px;	
+}
+
+#uft_img_div{
+    position: absolute;
+    top: 775px;
+    left: 823px;
+}
+
+#uft_img_div img{
+	height: 100px;
+    width: 150px;	
+}
