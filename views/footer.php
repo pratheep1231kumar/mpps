@@ -54,7 +54,7 @@
 			 <a class="footer_link">Privacy Statement</a> | &nbsp;&nbsp; 
 			  Browser Note: <b>The MPPS website is optimized for IE8+, Chrome, Mozilla &amp; Safari.</b>
 			</div> -->
-            <div class="copy">© Copyright MPPS - Innovators 2014 - 2015</div>
+            <div class="copy">&copy; Copyright MPPS - Innovators 2014 - 2015</div>
             <div class="clear"></div>
            </div>
 	    </div>
