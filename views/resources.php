@@ -5,7 +5,9 @@
 
 <div id="inner_content">
  	<h2>Resources</h2>
-    <h5>Page under construction</h5>
+    <div id="page_construction_img">
+		<img src="../images/page_under_construction.jpg" alt="Page Under Construction">
+	</div> 
    	<!--<div id="careers_inner_main_content">
 		<p align="justify">
         	We understand the real efforts in project execution and success, hence this portal is for supporting the industry at low budget, 

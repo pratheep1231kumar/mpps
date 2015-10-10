@@ -84,7 +84,7 @@
             <tr class="table_color">
 	            <td><img class="ali" src="../images/ali.jpg" alt="ali hussein"/></td>
                 <td>
-                	<h5>Ali Hussein - General Manager (Middle East North Asia)</h5>
+                	<h5>Ali Hussein - General Manager (AME) - Asia and Middle East</h5>
                     <p align="justify">                    	
 	                  Ali Hussein is a well-multi skilled professional with 8 years of technical and managerial experience in the offshore drilling industry in Transocean. Experienced Rig Manager Asset, Project Manager for UDW Drillship, managed multi-million dollar project executions, rig maintenance and management systems, drilling operations, equipment reliability, budget preparation and customer relations. Ali has extensive project execution and operations experience in various shipyards worldwide. Ali is quite adept at building effective working relationships in diverse and multi-cultural environments. Most recently, as a Rig Manager Asset for UDW Drillship, at Transocean. Ali worked his way up from Operations Engineer, Assistant Rig Manager, Constructions Manager, and Project Manager to his most recent position as Rig Manager Asset for UDW Drillship. Ali Hussein holds a Bachelor of Petroleum Engineering from Suez Canal University in Egypt. 
                     </p>
@@ -93,7 +93,7 @@
             <tr class="table_color">
 	            <td><img class="paul" src="../images/paul.jpg" alt="PAUL ONAJI"/></td>
                 <td class="td_bg_color">
-                	<h5>Paul Onaji - General Manager (Africa West- East And South)</h5>
+                	<h5>Paul Onaji - General Manager (EEA) - East Europe and Africa</h5>
                     <p align="justify">                    	
 						Paul Onaji is a certified project management professional (PMP) with several years’ experience in the Oil and Gas 
                         Industry providing support to drilling rigs in the areas of well construction operations, Project Management, Asset 
