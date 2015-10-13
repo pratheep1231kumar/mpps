@@ -90,7 +90,7 @@
                     </p>
             	</td>                        
             </tr>         
-            <tr class="table_color">
+            <!--<tr class="table_color">
 	            <td><img class="paul" src="../images/paul.jpg" alt="PAUL ONAJI"/></td>
                 <td class="td_bg_color">
                 	<h5>Paul Onaji - General Manager (EEA) - East Europe and Africa</h5>
@@ -104,10 +104,10 @@
                         Power, Thrusters and propulsion, SPS, UWILD.
                     </p>
             	</td>                        
-            </tr>             
+            </tr>-->       
             <tr class="table_color">
 	            <td><img class="sailu" src="../images/sailu.jpg" alt="NAGASAILAJA KARRI"/></td>
-                <td>
+                <td class="td_bg_color">
                 	<h5>Nagasailaja Karri - General Manager (Web Design And India Operations)</h5>
                     <p align="justify">                    	
 						Naga Sailaja Karri is certified professional in Personal Management Industrial Relations and Labour Welfare from 
