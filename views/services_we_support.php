@@ -17,7 +17,7 @@
         	(In affiliation with Tech27 - <a class='mouse_pointer' target="_blank" href="http://tech27.com/">http://tech27.com/</a>)</h5></li>
     	<li><h5><a href="modu_reactivation.php">MODU's reactivation from cold stack to READY TO OPERATE</a></h5></li>
     	<li><h5><a href="cluster.php">Establishment of Cluster project execution in Spain (JV)</a></h5></li>
-    	<li><h5><a href="cluster.php">Web Design</a></h5></li>                        
+    	<li><h5><a href="web_design.php">Web Design</a></h5></li>                        
     </ul>
 </div>
     

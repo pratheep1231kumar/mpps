@@ -6,7 +6,7 @@
 <div id="inner_content">
  	<h2>Contact Us</h2>
     <div id="uwild_scope_img">
-		<img src="../images/banner.jpg" alt="UWILD Scope and Execution">
+		<img src="../images/contact_us_banner.jpg" alt="UWILD Scope and Execution">
 	</div>        
     <div id="contact_inner_main_content">
     	<table id="about_us_table" class="display">
@@ -35,7 +35,7 @@
                     	SUEZ AL-HARAMEEN TOWER,</br>
 			        	9TH FLOOR, SUITE 26,</br>
         				SUEZ, EGYPT</br></br>
-                        <a class="contact_mail" href="mailto:pm.eea.admin@mppsinnovators.co.uk">pm.eea.admin@mppsinnovators.co.uk</a> <br/>
+                        <a class="contact_mail" href="mailto:pm.eea.admin@mppsinnovators.co.uk">pm.ame.admin@mppsinnovators.co.uk</a> <br/>
                     	Mobile: +2 010 6151 1113</br>
                     </div>               
                 </td>

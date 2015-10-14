@@ -16,7 +16,7 @@
         <li>Electrical</li>
         <li>Drilling Package Controls</li>
     </ul>
-	<h5>Execute scanning cloud data :</h5>
+	<h5>3D scanning and cloud data modelling :</h5>
     <ul class="bullet">
     	<li>Hazardous and nonhazardous areas of the MODU's</li>
         <li>Prepare Zoomdoc</li>

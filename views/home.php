@@ -9,8 +9,8 @@
 
 <div>
 	<marquee class="scroll_down_1" scrollamount="1" direction="down">
-    	Grow together along with offshore industry through strong cluster collaboration & partnership with offshore service providers globally and develop 
-        local continent and support in developing local continent
+    	<b>Vision</b> - Grow together along with offshore industry through strong cluster collaboration & partnership with offshore service providers globally 
+        and develop local continent and support in developing local continent
     </marquee>
 	<!--<marquee class="scroll_down_1" style=""scrollamount="1" direction="down">Grow</marquee>
     <marquee class="scroll_down_2" style=""scrollamount="2" direction="down">Together</marquee>
@@ -174,7 +174,7 @@
                     <li>Electrical</li>                 
                     <li>Drilling Package Controls</li>                                                                        
                 </ul>
- 			<h5>Execute scanning cloud data :</h5>		
+ 			<h5>3D scanning and cloud data modelling :</h5>		
 			    <ul class="bullet">
 			    	<li>Hazardous and nonhazardous areas of the MODU’s</li>
                     <li>Prepare Zoomdoc</li>                                                                                  
