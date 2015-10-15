@@ -9,8 +9,8 @@
 
 <div>
 	<marquee class="scroll_down_1" scrollamount="1" direction="down">
-    	<b>Vision</b> - Grow together along with offshore industry through strong cluster collaboration & partnership with offshore service providers globally 
-        and develop local continent and support in developing local continent
+    	<b>Vision</b> - Grow together along with offshore industry through strong cluster collaboration & partnership with service providers 
+        globally as well as support and develop local continent
     </marquee>
 	<!--<marquee class="scroll_down_1" style=""scrollamount="1" direction="down">Grow</marquee>
     <marquee class="scroll_down_2" style=""scrollamount="2" direction="down">Together</marquee>
