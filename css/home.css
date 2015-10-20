@@ -1409,116 +1409,8 @@ a.footer_link, a.footer_link:active{
 	font-family:Cursive;
 	font-size:12pt;
 	color:#FFFFFF;
-	height:720;
+	height:630;
 	width:650;
-}
-
-.scroll_down_2{
-	z-index:2;
-	position:absolute;
-	left:252;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:150;
-}
-
-.scroll_down_3{
-	z-index:2;
-	position:absolute;
-	left:312;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:150;	
-}
-
-.scroll_down_4{
-	z-index:2;
-	position:absolute;
-	left:372;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:150;	
-}
-
-.scroll_down_5{
-	z-index:2;
-	position:absolute;
-	left:432;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:150;	
-}
-
-.scroll_down_6{
-	z-index:2;
-	position:absolute;
-	left:492;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:150;	
-}
-
-.scroll_down_7{
-	z-index:2;
-	position:absolute;
-	left:552;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:150;	
-}
-
-.scroll_down_8{
-	z-index:2;
-	position:absolute;
-	left:612;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:150;	
-}
-
-.scroll_down_8{
-	z-index:2;
-	position:absolute;
-	left:672;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:150;	
-}
-
-.scroll_down_9{
-	z-index:2;
-	position:absolute;
-	left:732;
-	top:160;
-	font-family:Cursive;
-	font-size:12pt;
-	color:#FFFFFF;
-	height:720;
-	width:100;	
 }
 
 /* New button styles */
@@ -1777,18 +1669,25 @@ a.footer_link, a.footer_link:active{
     left: 30px;
 }
 
-#tech_27_img_div img{
-	height: 75px;
-    width: 150px;	
-}
-
 #uft_img_div{
     position: absolute;
     top: 800px;
     left: 823px;
 }
 
-#uft_img_div img{
+
+#sos_img_div{
+    position: absolute;
+    top: 800px;
+    left: 653px;
+}
+
+#tech_27_img_div img, #uft_img_div img{
 	height: 75px;
     width: 150px;	
+}
+
+#sos_img_div img{
+	height: 75px;
+    width: 160px;	
 }

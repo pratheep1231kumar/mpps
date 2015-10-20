@@ -12,34 +12,6 @@
     	<b>Vision</b> - Grow together along with offshore industry through strong cluster collaboration & partnership with service providers 
         globally as well as support and develop local continent
     </marquee>
-	<!--<marquee class="scroll_down_1" style=""scrollamount="1" direction="down">Grow</marquee>
-    <marquee class="scroll_down_2" style=""scrollamount="2" direction="down">Together</marquee>
-    <marquee class="scroll_down_3" style=""scrollamount="3" direction="down">Along</marquee>
-    <marquee class="scroll_down_4" style=""scrollamount="4" direction="down">With</marquee>
-    <marquee class="scroll_down_5" style=""scrollamount="5" direction="down">Offshore</marquee>
-    <marquee class="scroll_down_6" style=""scrollamount="6" direction="down">Industry</marquee>
-    <marquee class="scroll_down_7" style=""scrollamount="7" direction="down">Through</marquee>
-    <marquee class="scroll_down_8" style=""scrollamount="8" direction="down">Strong</marquee>
-    <marquee class="scroll_down_9" style=""scrollamount="9" direction="down">Cluster</marquee>
-
-	<marquee class="scroll_down_1" style=""scrollamount="9" direction="down">Collaboration</marquee>
-    <marquee class="scroll_down_2" style=""scrollamount="8" direction="down">Partnership</marquee>
-    <marquee class="scroll_down_3" style=""scrollamount="7" direction="down">Offshore</marquee>
-    <marquee class="scroll_down_4" style=""scrollamount="6" direction="down">Service</marquee>
-    <marquee class="scroll_down_5" style=""scrollamount="4" direction="down">Provides</marquee>
-    <marquee class="scroll_down_6" style=""scrollamount="3" direction="down">Globally</marquee>
-    <marquee class="scroll_down_7" style=""scrollamount="5" direction="down">And</marquee>
-    <marquee class="scroll_down_8" style=""scrollamount="2" direction="down">Develop</marquee>
-    <marquee class="scroll_down_9" style=""scrollamount="1" direction="down">Local</marquee>
-    
-   	<marquee class="scroll_down_1" style=""scrollamount="5" direction="down">Continent</marquee>
-    <marquee class="scroll_down_2" style=""scrollamount="6" direction="down">And</marquee>
-    <marquee class="scroll_down_3" style=""scrollamount="1" direction="down">Support</marquee>
-    <marquee class="scroll_down_4" style=""scrollamount="2" direction="down">In</marquee>
-    <marquee class="scroll_down_5" style=""scrollamount="7" direction="down">Developing</marquee>
-    <marquee class="scroll_down_6" style=""scrollamount="9" direction="down">Local</marquee>
-    <marquee class="scroll_down_7" style=""scrollamount="4" direction="down">Continent</marquee>-->
-    
 </div>
 
 <div id="mpps_services">
@@ -259,6 +231,9 @@
 </div>
 <div id="uft_img_div">
 	<a href="http://www.uft-engineering.com/" target="_blank"><img src="../images/uft_logo.jpg"></a>
+</div>
+<div id="sos_img_div">
+	<a href="http://www.safeos.dk/" target="_blank"><img src="../images/sos_logo.jpg"></a>
 </div>
 
 <!-- Header starts -->
