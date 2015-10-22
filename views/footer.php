@@ -20,7 +20,7 @@
 		</div>    
         
        <div class="follow">
-       		<h4>Follow us</h4>
+       		<h4>Follow Us</h4>
 			<ul>
                 <li class="facebook">
 					<a href="https://www.facebook.com/MPPSInnovators" target="_blank">
