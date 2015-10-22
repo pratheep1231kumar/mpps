@@ -6,7 +6,7 @@
 <div id="inner_content">
  	<h2>Web Design</h2>
     <div id="uwild_scope_img">
-		<img src="../images/banner.jpg" alt="UWILD Scope and Execution">
+		<img src="../images/webdesign_banner.jpg" alt="Web Design">
 	</div>    
 	<h5>Web Site management :</h5>
     <ul class="bullet">
