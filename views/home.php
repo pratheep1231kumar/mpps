@@ -235,6 +235,9 @@
 <div id="sos_img_div">
 	<a href="http://www.safeos.dk/" target="_blank"><img src="../images/sos_logo.jpg"></a>
 </div>
+<div id="hidramar_img_div">
+	<a href="http://www.hidramar.com/" target="_blank"><img src="../images/hidramar_logo.png"></a>
+</div>
 
 <!-- Header starts -->
 <?php include_once("footer.php"); ?>

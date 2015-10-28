@@ -1669,6 +1669,12 @@ a.footer_link, a.footer_link:active{
     left: 30px;
 }
 
+#hidramar_img_div{
+    position: absolute;
+    top: 800px;
+    left: 190px;
+}
+
 #uft_img_div{
     position: absolute;
     top: 800px;
@@ -1687,7 +1693,7 @@ a.footer_link, a.footer_link:active{
     width: 150px;	
 }
 
-#sos_img_div img{
+#sos_img_div img, #hidramar_img_div img{
 	height: 75px;
-    width: 160px;	
+    width: 165px;	
 }
