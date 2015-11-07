@@ -1697,3 +1697,7 @@ a.footer_link, a.footer_link:active{
 	height: 75px;
     width: 165px;	
 }
+
+.collapsed{
+	display:none;
+}
