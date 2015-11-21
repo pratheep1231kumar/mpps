@@ -66,3 +66,30 @@ function showTip(ele_id)
 		});
 	}						
 }
+
+function showAjaxLoader(){
+
+	//$('#aro_ajax_busy').hide();
+	//$('#aro_ajax_busy').show();	
+}
+
+function hideAjaxLoader(){	
+	//$('#aro_ajax_busy').hide();
+}
+
+function removeValidationMsg(strEleId)
+{
+	$("#"+strEleId).attr("err_msg", "");
+	$("#"+strEleId).removeClass("err_field");
+	if($("#err_wrap_"+strEleId).length)
+	{
+		$("#err_wrap_"+strEleId).remove();
+	}
+}
+ 
+function resetValidationMsgs()
+{
+	$(".err_field").each(function(nIndex, ele){
+		removeValidationMsg($(ele).attr("id"));
+	});
+}

@@ -17,6 +17,7 @@
 
 <script src="../js/mpps.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/home.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/config.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>

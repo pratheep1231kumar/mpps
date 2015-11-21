@@ -1,0 +1,1 @@
+var site_url = 'http://localhost/mpps/index_mpps.php';
