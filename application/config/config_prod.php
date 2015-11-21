@@ -23,8 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/mpps/';
-define("APP_HOME", 'C:\\xampp\\htdocs\\mpps\\');
+$config['base_url'] = 'http://www.mppsinnovators.co.uk/';
+define("APP_HOME", '/home/pratheep31kumar/public_html/');
+
 
 /*
 |--------------------------------------------------------------------------
@@ -513,6 +514,6 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-define('FILE_DB_PATH', APP_HOME.'file_database\\');
+define('FILE_DB_PATH', APP_HOME.'file_database/');
 define('RESOURCES_MAIL_TO', 'pratheep1231kumar@gmail.com');
 
