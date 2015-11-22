@@ -88,7 +88,7 @@ $(document).ready(function(){
 		showAjaxLoader();
 		$.ajax({  //ajax call to create ARO request in database.
 			type: "POST",
-			url: site_url+"/mpps_innovators/submitResources",
+			url: site_url+"/Mpps_ctl/submitResources",
 			data: ipData,
 			datatype: "json",
 			success: function(response){
@@ -113,7 +113,7 @@ $(document).ready(function(){
 function loadCountries(){
 	$.ajax({  //ajax call to fetch Countries information.
 		type: "POST",
-		url: site_url+"/mpps_innovators/getCountries",
+		url: site_url+"/Mpps_ctl/getCountries",
 		data: {},
 		dataType: "json",
 		success: function(response){
@@ -131,7 +131,7 @@ function loadCountries(){
 		complete: function(XHR, status){   //handle session out
 		},
 		error: function(error){
-			jAlert("Error", "Please Retry..., Unable to process your request!<br/>"+
+			alert("Error", "Please Retry..., Unable to process your request!<br/>"+
 			      "Most likely causes:<br/>"+
                	  "1. Your session is expired.<br/>"+
                	  "2. You are not connected to the Internet.<br/>"+
@@ -144,7 +144,7 @@ function loadCountries(){
 function loadCites(country_id){
 	$.ajax({  //ajax call to fetch Countries information.
 		type: "POST",
-		url: site_url+"/mpps_innovators/getCities",
+		url: site_url+"/Mpps_ctl/getCities",
 		data: {country_id:country_id},
 		dataType: "json",
 		success: function(response){
@@ -161,7 +161,7 @@ function loadCites(country_id){
 		complete: function(XHR, status){   //handle session out
 		},
 		error: function(error){
-			jAlert("Error", "Please Retry..., Unable to process your request!<br/>"+
+			alert("Error", "Please Retry..., Unable to process your request!<br/>"+
 			      "Most likely causes:<br/>"+
                	  "1. Your session is expired.<br/>"+
                	  "2. You are not connected to the Internet.<br/>"+
@@ -331,7 +331,7 @@ function fileUpload(fileName, fileTagName){
 	    $("#id_upload_files").ajaxSubmit({
 			type: "POST", 
 			data: {file_tag_name:fileTagName},
-			url: site_url+"/mpps_innovators/uploadFile", 			
+			url: site_url+"/Mpps_ctl/uploadFile", 			
 			dataType: "json",
 			contentType: "application/pdf",	
 			success: function(response) { 
