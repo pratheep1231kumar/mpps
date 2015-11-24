@@ -78,7 +78,6 @@ $(document).ready(function(){
 	});	
 			
 	$('#id_submit_resources').click(function(){	
-		alert('id_submit_resources');
 		var ipData = prepareInputData();
 		var validData = validateFormData(ipData);
 		if(!validData)
@@ -111,6 +110,7 @@ $(document).ready(function(){
 });
 
 function loadCountries(){
+	showAjaxLoader();
 	$.ajax({  //ajax call to fetch Countries information.
 		type: "POST",
 		url: site_url+"/Mpps_ctl/getCountries",
@@ -127,6 +127,7 @@ function loadCountries(){
 				$('#id_your_country').append("<option value='"+country_id+"'>"+					
 						country_name+"</option>");						
 			}
+			hideAjaxLoader();
 		},
 		complete: function(XHR, status){   //handle session out
 		},
@@ -142,6 +143,7 @@ function loadCountries(){
 }
 
 function loadCites(country_id){
+	showAjaxLoader();
 	$.ajax({  //ajax call to fetch Countries information.
 		type: "POST",
 		url: site_url+"/Mpps_ctl/getCities",
@@ -157,6 +159,7 @@ function loadCites(country_id){
 				$('#id_your_city').append("<option value='"+city_id+"'>"+					
 					city_name+"</option>");								
 			}
+			hideAjaxLoader();
 		},
 		complete: function(XHR, status){   //handle session out
 		},
@@ -327,7 +330,7 @@ function fileUpload(fileName, fileTagName){
 	}
 	else{	
 		//ajaxLoaderShow();
-
+		showAjaxLoader();
 	    $("#id_upload_files").ajaxSubmit({
 			type: "POST", 
 			data: {file_tag_name:fileTagName},
@@ -347,7 +350,7 @@ function fileUpload(fileName, fileTagName){
 					alert("Successfully Uploaded the file...");
 					$('input[name='+fileTagName+'_hidden]').val(response.name);
 				}
-				//ajaxLoaderHide();
+				hideAjaxLoader();
 			},
 			complete: function(XHR, status){   //handle session out
 			},
@@ -361,4 +364,17 @@ function fileUpload(fileName, fileTagName){
 		});	
 					
 	}	
+}
+
+function showAjaxLoader(){
+
+	$('#mpps_ajax_busy').hide();
+	$('#mpps_ajax_busy').show();	
+	$('#inner_content').removeClass('block_overlay');
+	$('#inner_content').addClass('block_overlay');
+}
+
+function hideAjaxLoader(){	
+	$('#mpps_ajax_busy').hide();
+	$('#inner_content').removeClass('block_overlay');
 }

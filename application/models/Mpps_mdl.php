@@ -7,6 +7,7 @@ class Mpps_mdl extends CI_Model {
 	{
 		parent::__construct();
 		$this->load->database();
+		$this->strFilesLocPath = FILE_DB_PATH;
 	}
 	
 	public function getCountries()
@@ -48,6 +49,7 @@ class Mpps_mdl extends CI_Model {
 	public function submitResources($input_data)
 	{
 		$retStat;
+		$attachments = array();
 		$mail_body = "<table border='1'>";
 		$mail_body .= "<tr><td>Project Role : </td><td>".$input_data['project_role']."</td></tr>";
 		$mail_body .= "<tr><td>Years of Exp : </td><td>".$input_data['years_of_exp']."</td></tr>";
@@ -66,52 +68,27 @@ class Mpps_mdl extends CI_Model {
 		$mail_body .= "<tr><td>Offshore Medical Expiry Date : </td><td>".$input_data['med_date']."</td></tr>";
 		$mail_body .= "<tr><td>Offshore Training : </td><td>".$input_data['off_training']."</td></tr>";
 		$mail_body .= "</table>";
-		
-		$mail_headers = "MIME-Version: 1.0" . "\n";
-		$mail_headers .= "Content-type:text/html;charset=iso-8859-1" . "\n";
-		$mail_headers .= 'From: <resources@mppsinnovators.co.uk>' . "\n";
-		
 		$mail_subject = "resource details submitted";		
 		$mail_to = RESOURCES_MAIL_TO;
-		
-		$mail_body = "\r\n".$mail_body."\r\n";		
 		
 		#Attaching Resume File
 		if($input_data['resume_file'] != '')
 		{
-			$strFile = $input_data['resume_file'];
-			$strRandomHash=md5($_SERVER["REQUEST_TIME"].":".strval(rand()));
-			$mail_body.="\r\n--".$strRandomHash."\r\n";
-			$mail_body.="Content-Type: application/octet-stream; name=\"".$strFile."\"\r\n";
-			$mail_body.="Content-Transfer-Encoding: base64\r\n";
-			$mail_body.="Content-Disposition: attachment;  filename=\"".$strFile."\"\r\n\r\n";
-			$mail_body.="\r\n".chunk_split(base64_encode(file_get_contents(FILE_DB_PATH.$strFile)))."\r\n";			
+			$attachments['resume_file'] = $input_data['resume_file'];
 		}
 		if($input_data['cv_letter'] != '')
 		{
-			$strFile = $input_data['cv_letter'];
-			$strRandomHash=md5($_SERVER["REQUEST_TIME"].":".strval(rand()));
-			$mail_body.="\r\n--".$strRandomHash."\r\n";
-			$mail_body.="Content-Type: application/octet-stream; name=\"".$strFile."\"\r\n";
-			$mail_body.="Content-Transfer-Encoding: base64\r\n";
-			$mail_body.="Content-Disposition: attachment;  filename=\"".$strFile."\"\r\n\r\n";
-			$mail_body.="\r\n".chunk_split(base64_encode(file_get_contents(FILE_DB_PATH.$strFile)))."\r\n";			
+			$attachments['cv_letter'] = $input_data['cv_letter'];
 		}
 		if($input_data['supp_doc'] != '')
 		{
-			$strFile = $input_data['supp_doc'];
-			$strRandomHash=md5($_SERVER["REQUEST_TIME"].":".strval(rand()));
-			$mail_body.="\r\n--".$strRandomHash."\r\n";
-			$mail_body.="Content-Type: application/octet-stream; name=\"".$strFile."\"\r\n";
-			$mail_body.="Content-Transfer-Encoding: base64\r\n";
-			$mail_body.="Content-Disposition: attachment;  filename=\"".$strFile."\"\r\n\r\n";
-			$mail_body.="\r\n".chunk_split(base64_encode(file_get_contents(FILE_DB_PATH.$strFile)))."\r\n";			
+			$attachments['supp_doc'] = $input_data['supp_doc'];
 		}
 		
 		
 		try
 		{
-			$status = mail($mail_to, $mail_subject, $mail_body, $mail_headers);
+			$status = $this->send($mail_to, $mail_subject, $mail_body, $attachments);
 			$retStat=array("status" => 1);
 		}
 		catch(Exception $e)
@@ -165,4 +142,52 @@ class Mpps_mdl extends CI_Model {
 		}
 		return $retStat;	
 	}
+
+	public function send($strToEmailIds, $strSubject, $strMessage, $attachments=NULL, $strCcEmailIds='',$strBCcEmailIds='')
+	{
+		//boundary string for multipart/mixed must be unique
+		$strRandomHash=md5($_SERVER["REQUEST_TIME"].":".strval(rand())); 
+		$strHeaders ="";
+		$strBody =""; 
+		$strHeaders.="From: "."resources@mppsinnovators.co.uk"."\r\n";
+		if("" != $strCcEmailIds)$strHeaders.="Cc: ".$strCcEmailIds."\r\n"; 
+		if("" != $strBCcEmailIds)$strHeaders.="Bcc: ".$strBCcEmailIds."\r\n";
+		$strHeaders.="MIME-Version: 1.0\r\n";
+		$strHeaders.="Content-Type: multipart/mixed;boundary=\"".$strRandomHash."\"\r\n";
+		$strBody.="\r\n--".$strRandomHash."\r\n";
+		$strBody.="Content-Type: text/html;charset=UTF-8\r\n";
+		$strBody .= "\r\n".$strMessage ."\r\n";
+		if(!is_null($attachments))
+		{
+			if("" != $this->strFilesLocPath)
+			{
+				if(is_array($attachments))
+				{
+					foreach($attachments as $nKey => $strFileName)
+					{
+						$strBody.="\r\n--".$strRandomHash."\r\n";
+						$strBody.="Content-Type: application/octet-stream; name=\"".$strFileName."\"\r\n";
+						$strBody.="Content-Transfer-Encoding: base64\r\n";
+						$strBody.="Content-Disposition: attachment;  filename=\"".$strFileName."\"\r\n\r\n";
+						$strBody.="\r\n".chunk_split(base64_encode(file_get_contents($this->strFilesLocPath.$strFileName)))."\r\n";
+					}
+				}
+				else
+				{
+						$strBody.="\r\n--".$strRandomHash."\r\n";
+						$strBody.="Content-Type: application/octet-stream; name=\"".$attachments."\"\r\n";
+						$strBody.="Content-Transfer-Encoding: base64\r\n";
+						$strBody.="Content-Disposition: attachment;  filename=\"".$attachments."\"\r\n\r\n";
+						$strBody.="\r\n".chunk_split(base64_encode(file_get_contents($this->strFilesLocPath.$attachments)))."\r\n";			
+				}			
+			}
+			else
+			{
+				return FALSE; 
+			}
+		}
+		$strBody.="\r\n--".$strRandomHash."--";	
+		return mail($strToEmailIds, $strSubject, $strBody, $strHeaders);
+	}
+	
 }

@@ -67,15 +67,6 @@ function showTip(ele_id)
 	}						
 }
 
-function showAjaxLoader(){
-
-	//$('#aro_ajax_busy').hide();
-	//$('#aro_ajax_busy').show();	
-}
-
-function hideAjaxLoader(){	
-	//$('#aro_ajax_busy').hide();
-}
 
 function removeValidationMsg(strEleId)
 {

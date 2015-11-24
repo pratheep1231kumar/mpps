@@ -83,4 +83,17 @@
 	width: 403px;
 }
 
+#mpps_ajax_busy {
+	position: absolute;
+	top: 400px; /* Position of  busy image */
+	left: 300px;
+}
+
+.loader{
+	border: 0px solid #5fc7e0 !important;
+}
+
+.block_overlay {
+    background-color: #CCC;
+}​
 
