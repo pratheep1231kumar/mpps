@@ -87,7 +87,16 @@ class Mpps_mdl extends CI_Model {
 		
 		
 		try
-		{
+		{	
+			$input_data['av_date'] = date('Y-m-d',strtotime($input_data['av_date']));
+			if($input_data['med_date'] != '')
+			{
+				$input_data['med_date'] = date('Y-m-d',strtotime($input_data['med_date']));
+			}
+			else{
+				unset($input_data['med_date']);
+			}
+			$this->db->insert('mpps_innovators.resources', $input_data);
 			$status = $this->send($mail_to, $mail_subject, $mail_body, $attachments);
 			$retStat=array("status" => 1);
 		}

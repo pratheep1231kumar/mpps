@@ -85,15 +85,17 @@
 
 #mpps_ajax_busy {
 	position: absolute;
-	top: 400px; /* Position of  busy image */
-	left: 300px;
+	top: 415px; /* Position of  busy image */
+	left: 352px;
 }
 
 .loader{
-	border: 0px solid #5fc7e0 !important;
+	border: 3px solid #5fc7e0 !important;
+	padding: 5px 60px 5px 60px;
 }
 
 .block_overlay {
-    background-color: #CCC;
+   opacity:0.4;
+   filter: alpha(opacity = 50);
 }​
 

@@ -1704,7 +1704,7 @@ a.footer_link, a.footer_link:active{
 }
 
 .mandatory {
-	border:3px solid #5fc7e0 !important;
+	border-left:6px solid #5fc7e0 !important;
 }
 
 .err_field {
