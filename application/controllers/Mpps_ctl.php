@@ -6,7 +6,8 @@ class Mpps_ctl extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('Mpps_mdl');		
+		$this->load->model('Mpps_mdl');	
+		error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
 	}
 
 	public function index()

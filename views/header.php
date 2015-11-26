@@ -1,7 +1,10 @@
 <html>
 <head>
+
 <meta name="description" content="MPPS Innovators Project Management Offshore Drilling Rigs UWILD Scope and Execution Detailed SPS Scope preparation Hull Preservation Survey MODU's Engineering analysis MODU's reactivation from cold stack to READY TO OPERATE Establishment of Cluster project execution in Spain (JV) Web Design">
+
 <title>MPPS - Innovators (Project Management , Offshore Drilling Rigs , UWILD Scope and Execution , Detailed SPS Scope preparation , Hull Preservation Survey , MODU's Engineering analysis  , MODU's reactivation from cold stack to READY TO OPERATE , Establishment of Cluster project execution in Spain (JV)  , Web Design)</title>
+
 <link rel="shortcut icon" href="../images/favicon.jpg" type = "image/png"/>
 <link type="text/css" href="../css/home.css?fetch_latest=107" rel="stylesheet" media="all">
 <link type="text/css" href="../css/static_pc_menu.css?fetch_latest=107" rel="stylesheet" media="all">
@@ -14,10 +17,10 @@
 
 <script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/jquery.hoverIntent.js" type="text/javascript" charset="utf-8"></script>
-
 <script src="../js/mpps.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/home.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/config.js" type="text/javascript" charset="utf-8"></script>
+
 </head>
 
 <body>
@@ -82,9 +85,9 @@
 	   <li id="menuItem5" class="mega">
 	   	<h2><a href="contact.php" class="new_link">Contact Us</a></h2>
 	   </li> 
-
 	</ul>
     
+    <div id='alert'></div>
 
 
 

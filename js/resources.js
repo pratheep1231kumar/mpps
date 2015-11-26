@@ -96,15 +96,25 @@ $(document).ready(function(){
 				if(response['status'] == 1)
 				{	
 					//loadSearchView(response['aro_id']);
-					alert("Successfully sumbitted the details...");
+					jAlert("Success", "Thanks for your interest in MPPPS Innovators.<br/>"+
+						"Your details are successfully sent to Our team.<br/>"+
+						"Our team will contact you soon.", "Success");
 				}			
 				else if(response['status'] == 0)
 				{				
 					//displayErrorMessage(response['error']);
-					alert(response['error']);
+					jAlert("Error", response['error']);
 				}
 				hideAjaxLoader();
 			},
+			error: function(error){
+				jAlert("Error", "Please Retry..., Unable to process your request!<br/>"+
+			    	  "Most likely causes:<br/>"+
+               	  	"1. Your session is expired.<br/>"+
+               	  	"2. You are not connected to the Internet.<br/>"+
+               	  	"3. The Domain Name Server (DNS) is not reachable.<br/>");
+				hideAjaxLoader();
+			}
 		});
 	});
 });
@@ -127,16 +137,17 @@ function loadCountries(){
 				$('#id_your_country').append("<option value='"+country_id+"'>"+					
 						country_name+"</option>");						
 			}
-			hideAjaxLoader();
+			hideAjaxLoader();						
 		},
 		complete: function(XHR, status){   //handle session out
-		},
+					},
 		error: function(error){
-			alert("Error", "Please Retry..., Unable to process your request!<br/>"+
+			jAlert("Error", "Please Retry..., Unable to process your request!<br/>"+
 			      "Most likely causes:<br/>"+
                	  "1. Your session is expired.<br/>"+
                	  "2. You are not connected to the Internet.<br/>"+
                	  "3. The Domain Name Server (DNS) is not reachable.<br/>");
+			hideAjaxLoader();
 		}
 	});
 
@@ -164,11 +175,12 @@ function loadCites(country_id){
 		complete: function(XHR, status){   //handle session out
 		},
 		error: function(error){
-			alert("Error", "Please Retry..., Unable to process your request!<br/>"+
+			jAlert("Error", "Please Retry..., Unable to process your request!<br/>"+
 			      "Most likely causes:<br/>"+
                	  "1. Your session is expired.<br/>"+
                	  "2. You are not connected to the Internet.<br/>"+
                	  "3. The Domain Name Server (DNS) is not reachable.<br/>");
+			hideAjaxLoader();
 		}
 	});
 
@@ -326,7 +338,7 @@ function fileUpload(fileName, fileTagName){
 	var regEx = /.pdf|.doc|.jpg|.docx$/ig;
 	if(!regEx.test(fileName))
 	{
-		alert(resourcesMessage['only_files']);
+		jAlert("Error", resourcesMessage['only_files']);
 	}
 	else{	
 		//ajaxLoaderShow();
@@ -336,7 +348,7 @@ function fileUpload(fileName, fileTagName){
 			data: {file_tag_name:fileTagName},
 			url: site_url+"/Mpps_ctl/uploadFile", 			
 			dataType: "json",
-			contentType: "application/pdf",	
+			contentType: "application/pdf",
 			success: function(response) { 
 				if(response.status == 0)
 				{
@@ -346,8 +358,7 @@ function fileUpload(fileName, fileTagName){
 					return;
 				}
 				else if(response.status == 1)
-				{
-					alert("Successfully Uploaded the file...");
+				{					
 					$('input[name='+fileTagName+'_hidden]').val(response.name);
 				}
 				hideAjaxLoader();
@@ -355,11 +366,12 @@ function fileUpload(fileName, fileTagName){
 			complete: function(XHR, status){   //handle session out
 			},
 			error: function(error){
-				alert("Error", "Please Retry..., Unable to process your request!<br/>"+
+				jAlert("Error", "Please Retry..., Unable to process your request!<br/>"+
 					  "Most likely causes:<br/>"+
-					  "1. Your session is expired.<br/>"+
+					  "1. Uploaded file exceeding the size.<br/>"+
 					  "2. You are not connected to the Internet.<br/>"+
 					  "3. The Domain Name Server (DNS) is not reachable.<br/>");
+				hideAjaxLoader();
 			}			
 		});	
 					

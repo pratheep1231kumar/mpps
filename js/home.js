@@ -1,3 +1,8 @@
+$(document).ready(function()
+{
+
+});
+
 function showTip(ele_id)
 {
 	var offset = $('#'+ele_id).offset();
@@ -83,4 +88,19 @@ function resetValidationMsgs()
 	$(".err_field").each(function(nIndex, ele){
 		removeValidationMsg($(ele).attr("id"));
 	});
+}
+
+function jAlert(strTitle, strMesg)
+{
+	$("#alert").dialog({
+		buttons : {
+        	Ok: function() {
+				$(this).dialog("close"); //closing on Ok click
+            }
+        }
+	});
+	$('#alert').html(strMesg);
+	$('#alert').css('background-color', "#FFF");
+	$('#alert').dialog('option', 'title', strTitle);
+	$('#alert').dialog('open');
 }
