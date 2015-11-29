@@ -1,4 +1,8 @@
 <div id="footer"> 
+    <div id="mpps_ajax_busy" class="loader display_none">
+        <img src="../images/ajax_loader.gif" width="43" height="11" alt="Loading" />
+        Please wait...
+    </div>
    	<div class="extended_area">
 		<div class="services">
 			<h4>Services</h4>

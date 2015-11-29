@@ -6,14 +6,42 @@ class Mpps_ctl extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('Mpps_mdl');	
-		error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
+		$this->load->model('Mpps_mdl');
+		// Load session library
+		$this->load->library('session');
 	}
 
 	public function index()
 	{
 		#$this->load->view('welcome_message');
 	}
+	
+	public function mppsLogin()
+	{
+		//if(isset($this->session->userdata['logged_in'])){
+		//	$this->load->view('admin_page');
+		//}	
+		$inputData = $this->input->post(NULL, TRUE);	
+		$result = $this->Mpps_mdl->mppsLogin($inputData);
+		if($result != false){
+			$session_data = array(
+				'username' => $result[0]->user_name				
+			);
+			// Add user data in session
+			$this->session->set_userdata('logged_in', $session_data);
+			$status = array("status" => 1, "username" => $result[0]->user_name);				
+		}
+		else{
+			$status = array("status" => 0, "error" => "Invalid Login");			
+		}
+		echo json_encode($status);
+	}
+	
+	public function loadAdminPage()
+	{
+		$this->load->view('admin_page', $this->session->userdata['logged_in']);
+	}
+	
 	
 	public function submitResources()
 	{

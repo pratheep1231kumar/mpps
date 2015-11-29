@@ -1,21 +1,13 @@
-
-<!-- Header starts -->
-<?php include_once("header.php"); ?>
-<script src="../js/my_account.js" type="text/javascript" charset="utf-8"></script>
-<!-- Header ends -->
-
-<div id="inner_content">
-<div id="my_account_div">
- 	<h2>My Log In</h2>
+ 	<h2>Admin Page</h2>
    	<div id="login_user_form" class="left_div_form">
     	<div id="id_error" class="error_note display_none"></div>
     	<div class="field_header"><h5>Log In:</h5></div>
         <form id="login_form" method="post" name="login_form" action>
         	<fieldset class="mpps_field_style">
         		<input type="text" title = "User Name"  placeholder = "User Name (Email Id)" name="user_name" id="id_user_name" 
-                	maxlength="50" class="mpps_input_full mandatory">
+                	maxlength="25" class="mpps_input_full mandatory">
                 </br>
-				<input type="password" title = "Password" placeholder = "Password" name="password" id="id_password" maxlength="50"
+				<input type="password" title = "Password" placeholder = "Password" name="password" id="id_password" maxlength="25"
                 	 class="mpps_input_full mandatory">
                 </br>                
              </fieldset>             
@@ -96,10 +88,3 @@
             </fieldset>	
         </form>
      </div>-->
-     </div>
-     <div id="admin_page_div"></div>
-</div>
-    
-<!-- Header starts -->
-<?php include_once("footer.php"); ?>
-<!-- Header ends -->

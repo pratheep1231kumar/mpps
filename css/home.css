@@ -1711,5 +1711,16 @@ a.footer_link, a.footer_link:active{
     outline: 3px solid #EF4F4F;
 }
 
+.error_note {
+    background-color: #fee4e3;
+    border: 1px solid #ef4f4f;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+	width:383px;
+    display: none;
+}
+
 
 

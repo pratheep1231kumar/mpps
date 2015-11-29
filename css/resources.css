@@ -79,7 +79,7 @@
 }
 
 
-#create_button, #id_submit_resources{
+#create_button, #id_submit_resources, #id_login{
 	width: 403px;
 }
 
@@ -98,4 +98,6 @@
    opacity:0.4;
    filter: alpha(opacity = 50);
 }​
+
+
 

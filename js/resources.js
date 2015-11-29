@@ -377,16 +377,3 @@ function fileUpload(fileName, fileTagName){
 					
 	}	
 }
-
-function showAjaxLoader(){
-
-	$('#mpps_ajax_busy').hide();
-	$('#mpps_ajax_busy').show();	
-	$('#inner_content').removeClass('block_overlay');	
-	$('#inner_content').addClass('block_overlay');	
-}
-
-function hideAjaxLoader(){	
-	$('#mpps_ajax_busy').hide();	
-	$('#inner_content').removeClass('block_overlay');
-}

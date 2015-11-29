@@ -199,4 +199,20 @@ class Mpps_mdl extends CI_Model {
 		return mail($strToEmailIds, $strSubject, $strBody, $strHeaders);
 	}
 	
+	function mppsLogin($input_data)
+	{
+		$condition = "user_name ="."'".$input_data['user_name']."'"."AND user_password ="."'".$input_data['password']."'";
+		$this->db->select('*');
+		$this->db->from('mpps_innovators.user_login');
+		$this->db->where($condition);
+		$this->db->limit(1);
+		$query = $this->db->get();
+		
+		if($query->num_rows() == 1){
+			return $query->result();
+		}
+		else{
+			return false;
+		}		
+	}
 }

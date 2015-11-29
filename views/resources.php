@@ -221,10 +221,6 @@
     </div>
 </div>
 
-<div id="mpps_ajax_busy" class="loader">
-	<img src="../images/ajax_loader.gif" width="43" height="11" alt="Loading" />
-	Please wait...
-</div>
     
 <!-- Header starts -->
 <?php include_once("footer.php"); ?>
