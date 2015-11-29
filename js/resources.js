@@ -284,7 +284,7 @@ function prepareInputData()
 	
 	ipData['type_of_projects'] = $('#id_type_of_projects').val();
 	
-	ipData['location_of_projects'] = $('#id_location_of_projects').val();
+	ipData['location_of_projects'] = $('#id_location_of_projects option:selected').text();
 	
 	ipData['discipline'] = $('#id_discipline').val();
 	if(ipData['discipline'] == 'others'){
@@ -295,9 +295,9 @@ function prepareInputData()
 	
 	ipData['user_name'] = $('#id_user_name').val();
 	
-	ipData['your_country'] = $('#id_your_country').val();
+	ipData['your_country'] = $('#id_your_country option:selected').text();
 	
-	ipData['your_city'] = $('#id_your_city').val();
+	ipData['your_city'] = $('#id_your_city option:selected').text();
 	
 	ipData['av_date'] = $('#id_av_date').val();
 	
