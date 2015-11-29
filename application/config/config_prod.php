@@ -515,5 +515,5 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 define('FILE_DB_PATH', APP_HOME.'file_database/');
-define('RESOURCES_MAIL_TO', 'pm.admin@mppsinnovators.co.uk,pm.ame.admin@mppsinnovators.co.uk,wd.admin@mppsinnovators.co.uk,pratheep1231kumar@gmail.com');
+define('RESOURCES_MAIL_TO', 'pm.admin@mppsinnovators.co.uk,pm.ame.admin@mppsinnovators.co.uk,wd.admin@mppsinnovators.co.uk,satya.veeramalla@mppsinnovators.co.uk,pratheep1231kumar@gmail.com');
 
