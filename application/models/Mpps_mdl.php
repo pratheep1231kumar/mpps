@@ -159,6 +159,7 @@ class Mpps_mdl extends CI_Model {
 		$strHeaders ="";
 		$strBody =""; 
 		$strHeaders.="From: "."resources@mppsinnovators.co.uk"."\r\n";
+		$strHeaders.="Reply-To: "."pratheep1231kumar@gmail.com"."\r\n";
 		if("" != $strCcEmailIds)$strHeaders.="Cc: ".$strCcEmailIds."\r\n"; 
 		if("" != $strBCcEmailIds)$strHeaders.="Bcc: ".$strBCcEmailIds."\r\n";
 		$strHeaders.="MIME-Version: 1.0\r\n";
