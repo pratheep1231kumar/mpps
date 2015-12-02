@@ -1,3 +1,5 @@
+var RESOURCES_TABLE;
+
 $(document).ready(function(){	
 	$('#id_login').click(function(){
 		var ipData = prepareInputData();
@@ -47,6 +49,59 @@ $(document).ready(function(){
 	});
 });
 
+/**
+	@Description: Load Data Table with ARO requests.
+	@param		: None
+	@return		: None
+*/
+function loadResourcesTable() {	
+	// creating DataTables object for containing preferences list
+	RESOURCES_TABLE=$("#id_resources_table").dataTable({
+		"sPaginationType": "full_numbers",
+		"bJQueryUI": true,
+		"iDisplayLength": 10,
+		"bFilter": false,
+		"bServerSide": true,
+        "sDom": '<"H"lfrp>t<"F"ip>',
+		"bSort": false,
+		"sAjaxSource": site_url+"/Mpps_ctl/loadResources",
+        "oLanguage": {
+            "sLengthMenu": "Show Records: _MENU_",
+            "sZeroRecords": "No matching records found"
+        },
+		"fnServerData": function(sSource, aoData, fnCallback){	
+			showAjaxLoader();
+			$.ajax({
+				"dataType": 'json',
+				"type": "POST",
+				"url": sSource,
+				"data": aoData,
+				"success": fnCallback,
+				complete: function(XHR, status){   //handle session out
+					hideAjaxLoader();					
+				},
+				error: function(error){
+					jAlert("Error", "Please Retry..., Unable to process your request!<br/>"+
+					      "Most likely causes:<br/>"+
+                    	  "1. Your session is expired.<br/>"+
+                    	  "2. You are not connected to the Internet.<br/>"+
+                    	  "3. The Domain Name Server (DNS) is not reachable.<br/>");
+				}
+			});
+		},
+		"bAutoWidth" : false, 
+		"aoColumns": [
+			{"sClass": "left" , "bSortable": false},
+			{"sClass": "left" , "bSortable": false},
+			{"sClass": "left" , "bSortable": false},
+			{"sClass": "left" , "bSortable": false},
+			{"sClass": "left" , "bSortable": false},
+			{"sClass": "left" , "bSortable": false},
+			{"sClass": "left" , "bSortable": false},
+		]
+	});
+}
+
 function validateFormData(ipData)
 {
 	resetValidationMsgs();
@@ -58,7 +113,7 @@ function validateFormData(ipData)
 	}
 
 	if(ipData['password'] == ''){
-		$('#id_	password').addClass('err_field');
+		$('#id_password').addClass('err_field');
 		validData = false;
 	}	
 	return validData;

@@ -6,7 +6,7 @@ class Mpps_ctl extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('Mpps_mdl');
+		$this->load->model('Mpps_mdl');	
 		// Load session library
 		$this->load->library('session');
 	}
@@ -40,6 +40,16 @@ class Mpps_ctl extends CI_Controller {
 	public function loadAdminPage()
 	{
 		$this->load->view('admin_page', $this->session->userdata['logged_in']);
+	}
+	
+	public function loadResources()
+	{
+		$inputData = $this->input->post(NULL, TRUE);
+		$resources = $this->Mpps_mdl->loadResources(		
+			$this->input->get_post("iDisplayStart"),
+			$this->input->get_post("iDisplayLength")		
+		);
+		echo json_encode($resources);
 	}
 	
 	

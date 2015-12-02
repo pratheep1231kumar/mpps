@@ -1722,5 +1722,8 @@ a.footer_link, a.footer_link:active{
     display: none;
 }
 
-
+.resources_table{
+	width:100%;
+	border: 1px solid #68AEED;
+}
 

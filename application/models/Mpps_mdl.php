@@ -216,4 +216,81 @@ class Mpps_mdl extends CI_Model {
 			return false;
 		}		
 	}
+	
+	public function loadResources($iDisplayStart=NULL, $iDisplayLength=NULL)
+	{
+		$resourcesRequests = array();		
+		$filteredTotal = 0;
+		if(isset($iDisplayStart) && isset($iDisplayLength))
+		{
+			$resourcesRequests = $this->getResources($iDisplayStart,$iDisplayLength);
+			$filteredTotal = $resourcesRequests['filtered_total'];
+			$resourcesRequests = $resourcesRequests['resources_data'];			
+
+		}
+		//Prepare json output
+		$output = array(
+			 'iTotalRecords' => $filteredTotal,
+			 'iTotalDisplayRecords' => $filteredTotal,
+			 'aaData' => array()
+		);				
+		
+		foreach($resourcesRequests as $resourcesRequest)
+		{
+			$resourcesRequestData = array();
+			
+			array_push($resourcesRequestData, $resourcesRequest->id);
+			array_push($resourcesRequestData, $resourcesRequest->created_on);
+			array_push($resourcesRequestData, $resourcesRequest->user_name);
+			array_push($resourcesRequestData, $resourcesRequest->project_role);
+            array_push($resourcesRequestData, $resourcesRequest->discipline);
+			array_push($resourcesRequestData, $resourcesRequest->your_country);
+			array_push($resourcesRequestData, $resourcesRequest->your_city);					
+		
+			array_push($output['aaData'], $resourcesRequestData);		
+		}
+		return $output;
+	}	
+	
+	public function getResources($rowsStart=NULL, $rowsCount=NULL)
+	{
+		$resourcesRequests = array();
+		//Prepare sql query to fetch active ARO records.
+        $sql = "SELECT id, created_on, user_name, project_role, discipline, your_country, your_city
+				FROM mpps_innovators.resources ORDER BY created_on DESC	";
+		
+		//Execute query
+		$query = $this->db->query($sql);
+		
+		foreach($query->result() as $row)
+		{
+			array_push($resourcesRequests, $row);
+		}
+		
+		//Set LIMIT to Array.
+		if(isset($rowsStart) and isset($rowsCount))
+		{
+			$resourcesFilteredTotal = count($resourcesRequests);
+			$resourcesLimitArray = array();
+			$resourcesIndex = 0;
+			foreach($resourcesRequests as $resourcesRequest)
+			{
+				if($resourcesIndex >= $rowsStart and $resourcesIndex < $rowsStart+$rowsCount)
+				{
+					array_push($resourcesLimitArray , $resourcesRequest);
+				}
+				$resourcesIndex++;
+			}
+		    $resourcesLimitArray = array('resources_data' => $resourcesLimitArray, 
+				'status' => '1',
+				'filtered_total' => $resourcesFilteredTotal);			
+			return $resourcesLimitArray;
+		}
+		else
+		{
+			return array('status' => 1, 'resources_data' => $resourcesRequests);
+		}	
+	}	
 }
+	
+

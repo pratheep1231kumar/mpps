@@ -14,11 +14,17 @@
 	</div>-->
    	<div id="careers_inner_main_content">
 		<p align="justify">
-        	We understand the real efforts in project execution and success, hence this portal is for supporting the industry at low budget, 
-        	optimised schedule, uncompromised SAFETY Maximising Recovery plans of the Industry. Strictly for only candidates can input the information at free 
-            of cost. No agencies access please. Employers registered with IADC, ISO or any professional organisations can contact MPPS to choose workforce at 
-            free of cost. Please note that remuneration will be low if selected through us "NO MARK UPS FOR US, SERIOUSLY NO".
-
+            <b><u>We understand the real efforts in project execution and success, hence this portal is for supporting the industry at low budget, optimised schedule, uncompromised SAFETY Maximising Recovery plans of the Industry</u></b>
+    		</br></br>
+            Strictly professionals only can input the information at free of cost
+    		</br></br>
+            No agencies access please
+        	</br></br>
+            Employers registered with IADC or any professional organisations can contact MPPS to choose workforce at free of cost.
+     		</br></br>
+            <i>Please note the remuneration will be low if selected through us “sustainability than profitability”
+            </br></br>
+            "NO MARK UPS FOR US, SERIOUSLY NO"</i>
         </p>
     </div>    
    	<div id="careers_form" class="resources_left_div_form">

@@ -2,6 +2,8 @@
 <!-- Header starts -->
 <?php include_once("header.php"); ?>
 <script src="../js/my_account.js" type="text/javascript" charset="utf-8"></script>
+<link type="text/css" href="../css/datatable_jui.css" media="all" rel="stylesheet"/>
+<script type='text/javascript' src="../js/jquery.dataTables.js"></script>
 <!-- Header ends -->
 
 <div id="inner_content">
