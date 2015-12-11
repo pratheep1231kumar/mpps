@@ -7,8 +7,12 @@
 	margin-top: 10px;
 }
 
-#careers_inner_main_content p{
-	padding-top: 10px;
+#resources_inner_main_content p{
+    font-family: cursive;
+    font-size: 13px !important;
+    padding: 5px;
+    background-color: #f6f6f6;
+    margin-top: 10px;
 }
 
 .resources_field_style {
@@ -23,21 +27,30 @@
     width: 100px;
 }
 
-#create_form .mpps_input {
+#careers_form .mpps_input {
     border: 1px solid #5fc7e0;
     margin: 5px 0px;
-    width: 200px;
-    height: 30px;
-	padding: 10px 12px;
+	margin-right: 15px;
+ 	padding: 10px 12px;
 }
 
 .mpps_input_full {
     border: 1px solid #5fc7e0;
-    margin-top: 5px;
+    margin: 5px 0px;
 	margin-right: 15px;
+ 	padding: 10px 12px;	
     width: 403px;
     height: 30px;
-	padding: 10px 12px;
+}
+
+.mpps_input_medium {
+    width: 203px;
+    height: 30px;
+}
+
+.mpps_input_small {
+    width: 70px;
+    height: 30px;
 }
 
 .mpps_input_others {
@@ -60,13 +73,13 @@
 
 .upload_label{
 	margin-right: 10px;
-	width: 170px;
+	width: 190px;
     display: inline-block;
 }
 
 #careers_form .resources_input_select{
     border: 1px solid #5fc7e0;
-    margin-top: 5px;
+    margin: 5px 0px;
 	margin-right: 15px;
     width: 403px;
     height: 30px;
@@ -98,6 +111,5 @@
    opacity:0.4;
    filter: alpha(opacity = 50);
 }​
-
 
 

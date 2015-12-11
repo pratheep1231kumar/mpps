@@ -46,6 +46,24 @@ class Mpps_mdl extends CI_Model {
 		return $citiesFormatted;
 	}
 	
+	public function getCountryMobileCode($country_id)
+	{
+		$country_mobile_code = '';
+		$query = $this->db->query(
+			'SELECT country_mobile_code FROM 
+			 mpps_innovators.countries c
+			WHERE c.id = '.$country_id.';'
+		);
+
+		foreach($query->result() as $row)
+		{
+			if($row->country_mobile_code){
+				$country_mobile_code = $row->country_mobile_code;
+			}
+		}
+		return $country_mobile_code;
+	}
+	
 	public function submitResources($input_data)
 	{
 		$retStat;
@@ -238,6 +256,7 @@ class Mpps_mdl extends CI_Model {
 		foreach($resourcesRequests as $resourcesRequest)
 		{
 			$resourcesRequestData = array();
+			$extraDetails = array();
 			
 			array_push($resourcesRequestData, $resourcesRequest->id);
 			array_push($resourcesRequestData, $resourcesRequest->created_on);
@@ -245,8 +264,37 @@ class Mpps_mdl extends CI_Model {
 			array_push($resourcesRequestData, $resourcesRequest->project_role);
             array_push($resourcesRequestData, $resourcesRequest->discipline);
 			array_push($resourcesRequestData, $resourcesRequest->your_country);
-			array_push($resourcesRequestData, $resourcesRequest->your_city);					
+			array_push($resourcesRequestData, $resourcesRequest->your_city);
+			$moreOption = "<img src='../images/icon_down.gif'".
+                "id=resource_0_".$resourcesRequest->id.
+				"class='resource_image_style resource_cursor'>".
+				" <a class = 'resource_cursor' id=resource_0_".$resourcesRequest->id.
+				">more</a>";				
+			array_push($resourcesRequestData, $moreOption);
+			
+			$extraDetails['id'] = $resourcesRequest->id;
+			$extraDetails['created_on'] = $resourcesRequest->created_on;
+			$extraDetails['project_role'] = $resourcesRequest->project_role;
+			$extraDetails['years_of_exp'] = $resourcesRequest->years_of_exp;
+			$extraDetails['no_of_projects'] = $resourcesRequest->no_of_projects;
+			$extraDetails['type_of_projects'] = $resourcesRequest->type_of_projects;
+			$extraDetails['location_of_projects'] = $resourcesRequest->location_of_projects;
+			$extraDetails['discipline'] = $resourcesRequest->discipline;
+			$extraDetails['team_size'] = $resourcesRequest->team_size;
+			$extraDetails['user_name'] = $resourcesRequest->user_name;
+			$extraDetails['your_country'] = $resourcesRequest->your_country;
+			$extraDetails['your_city'] = $resourcesRequest->your_city;
+			$extraDetails['av_date'] = $resourcesRequest->av_date;
+			$extraDetails['mobile_phone'] = $resourcesRequest->mobile_phone;
+			$extraDetails['email_id'] = $resourcesRequest->email_id;
+			$extraDetails['home_phone'] = $resourcesRequest->home_phone;
+			$extraDetails['med_date'] = $resourcesRequest->med_date;
+			$extraDetails['off_training'] = $resourcesRequest->off_training;
+			$extraDetails['resume_file'] = $resourcesRequest->resume_file;
+			$extraDetails['cv_letter'] = $resourcesRequest->cv_letter;
+			$extraDetails['supp_doc'] = $resourcesRequest->supp_doc;
 		
+			array_push($resourcesRequestData, json_encode($extraDetails));
 			array_push($output['aaData'], $resourcesRequestData);		
 		}
 		return $output;
@@ -256,7 +304,11 @@ class Mpps_mdl extends CI_Model {
 	{
 		$resourcesRequests = array();
 		//Prepare sql query to fetch active ARO records.
-        $sql = "SELECT id, created_on, user_name, project_role, discipline, your_country, your_city
+        $sql = "SELECT id, DATE_FORMAT( created_on, '%d-%b-%Y %H:%i' ) AS created_on, 
+				project_role, years_of_exp, no_of_projects, type_of_projects, 
+				location_of_projects, discipline, team_size, user_name, your_country, 
+				your_city, av_date, mobile_phone, email_id, home_phone, med_date, 
+				off_training, resume_file, cv_letter, supp_doc
 				FROM mpps_innovators.resources ORDER BY created_on DESC	";
 		
 		//Execute query

@@ -98,8 +98,68 @@ function loadResourcesTable() {
 			{"sClass": "left" , "bSortable": false},
 			{"sClass": "left" , "bSortable": false},
 			{"sClass": "left" , "bSortable": false},
-		]
+			{"sClass": "left" , "bSortable": false},
+			{"sClass": "left" , "bSortable": false, "bVisible": false}
+		],
+		"fnDrawCallback": fnOpenClose
 	});
+}
+
+function fnOpenClose ( oSettings )
+{
+	$('td [id^="resource"]', RESOURCES_TABLE.fnGetNodes() ).each( function () {
+		$(this).click( function () {
+			var nTr = this.parentNode.parentNode;										
+			var nRemove = $(nTr).next()[0];
+			var mpps_id = $(nTr).find("a").attr("id");				
+			//open							 
+			if(mpps_id.substr(9,1)==0){
+				$(nTr).find("a").attr("id",$(nTr).find("a").attr("id").replace("_0_","_1_"));
+				$(nTr).find("a").text('less');
+				$(nTr).find("img").attr('src','../images/icon_up.gif')
+				var id = mpps_id.substring(11);
+				RESOURCES_TABLE.fnOpen(nTr, formatDetails(nTr), 'resource_details' );
+			}
+			else{
+				// close
+				if($(nRemove).find('td').is(".resource_details")){
+					$(nTr).find("a").attr("id",$(nTr).find("a").attr("id").replace("_1_","_0_"));
+					$(nTr).find("a").text('more');
+					$(nTr).find("img").attr('src','../images/icon_up.gif');
+					nRemove.parentNode.removeChild(nRemove);
+				 }
+			}
+		});
+	});
+}
+
+function formatDetails(nTr )
+{				
+	var aData = RESOURCES_TABLE.fnGetData( nTr ); 
+	var ResourceData = JSON.parse(aData[8]);
+	var html = '';
+	if(ResourceData.id)
+	{
+    	var years_of_exp = ResourceData.years_of_exp;
+        var no_of_projects = ResourceData.no_of_projects;
+        var type_of_projects = ResourceData.type_of_projects;
+		var location_of_projects = ResourceData.location_of_projects;
+		var discipline = ResourceData.discipline;
+		
+		html += "<table class='resource_margin_bottom' id='resource_details_table' cellpadding='0' width='100%' cellspacing='0' border='0'  >"+
+			"<tr><td><b>Years Of Exp</b></td><td>: "+ResourceData.years_of_exp+"</td>"+
+			"<td ><b>No Of Projects</b></td><td>: "+ResourceData.no_of_projects+"</td>"+
+			"<td><b>Type Of Projects</b></td><td>: "+ResourceData.type_of_projects+"</td>"+
+			"<tr><td><b>Location Of Projects</b></td><td>: "+ResourceData.location_of_projects+"</td>"+
+			"<td><b>Discipline</b></td><td>: "+ResourceData.discipline+"</td>"+
+			"<td><b>Email</b></td><td>: "+ResourceData.email_id+"</td>"+
+			"<tr><td><b>Mobile</b></td><td>: "+ResourceData.mobile_phone+"</td>"+
+			"<td><b>Home Phone</b></td><td>: "+ResourceData.home_phone+"</td>"+
+			"<td><b>Offshore Training</b></td><td>: "+ResourceData.off_training+"</td></td></tr>"+
+			"</table>";					
+	}
+
+	return html;	
 }
 
 function validateFormData(ipData)

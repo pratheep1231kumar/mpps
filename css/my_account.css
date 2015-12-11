@@ -93,3 +93,23 @@ div .left_div_form {
 #create_user_form{
 	padding-top:30px;
 }
+
+.resource_image_style
+{
+	padding: 0 0 2px 2px;
+	vertical-align : middle;
+}
+
+.resource_cursor{
+	cursor:pointer;
+}
+
+.resource_margin_bottom
+{
+	margin-bottom:5px;
+}
+
+#resource_details_table td{
+	border:none;
+	background-color:#F9F9F9;
+}

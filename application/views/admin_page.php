@@ -3,10 +3,10 @@ $(document).ready(function(){
 	loadResourcesTable();
 });
 </script>
-<h2>Admin Page</h2>
+<h2>MPPS Admin</h2>
 <br/>
 <div>
-    <table id="id_resources_table" class="resources_table">
+    <table id="id_resources_table" class="resources_table display">
         <thead>
             <tr>
                 <th align='left' class="ui-state-default" width='60'>ID</th>
@@ -16,6 +16,8 @@ $(document).ready(function(){
                 <th align='left' class="ui-state-default" maxwidth='30'>Discipline</th>
                 <th align='left' class="ui-state-default" maxwidth='30'>Country</th>
                 <th align='left' class="ui-state-default" width='100'>City</th>
+                <th align='left' class="ui-state-default"></th>
+                <th maxwidth='10' class="ui-state-default"></th>
             </tr>
         </thead>        
     </table>

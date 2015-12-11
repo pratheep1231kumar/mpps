@@ -22,6 +22,15 @@
         	This is unique experience and we are proud to announce that "WE CAN DO TOGETHER". 
         </p>
 
+        <p align="justify">
+			<b>Mission</b> - Support offshore organizations to accomplish projects at low overhead costs
+        </p>
+
+        <p align="justify">
+        	<b>Vision</b> - Grow together along with offshore industry through strong cluster collaboration & partnership with service providers globally as well
+            as support and develop local continent 
+        </p>        
+
     <div id="our_team">
     	<h5>Our Team</h5>
         <table id="about_us_table" class="display">
@@ -36,7 +45,7 @@
                         progressing to project management. Satya learned to deliver newly built drilling rigs on time and within budget. This 
                         experience provided offshore drilling rigs (MODU) project management opportunities in Singapore, Philippines, Egypt, 
                         Namibia, Luanda, Gabon, Nigeria, Tanzania, LasPalmas, Ivory Coast, Houston, Aberdeen, Rotterdam and Esbjerg, Denmark 
-                        ranging from $50 million to $130millions. Also an expert in project audit. Satya being focal point for stakeholder 
+                        ranging from $50 million to $130 millions. Also an expert in project audit. Satya being focal point for stakeholder 
                         management and team (multi cultured global resources) motivation to achieve the project safely, it was necessary to be 
                         master of risk management and safety processes that accomplished all projects with zero recordable incidents. 
                     </p>

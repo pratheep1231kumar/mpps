@@ -1,5 +1,26 @@
+//Global Variables.
+TYPE_PROJ_CNT = 0;
 $(document).ready(function(){
 	loadCountries();
+
+	$("#id_terms_cond, #id_label_terms").click(function(){
+		if($(this).is(':checked')){
+			$('#login_button_div').show();
+		}else{
+			$('#login_button_div').hide();
+		}
+	}); 
+
+	$("#id_label_terms").click(function(){
+		if(!$('#id_terms_cond').is(':checked')){
+			$('#id_terms_cond').attr('checked', 'checked');
+			$('#login_button_div').show();
+		}else{
+			$('#id_terms_cond').attr('checked', false);
+			$('#login_button_div').hide();
+		}
+	});	
+		
 	$("#id_years_of_exp").change(function(){
 		var exp = $(this).val();
 		if(exp == 'others'){
@@ -8,8 +29,8 @@ $(document).ready(function(){
 		else{
 			$("#id_others_years_of_exp").hide();
 		}
-	});
-
+	}); 
+	
 	$("#id_no_of_projects").change(function(){
 		var exp = $(this).val();
 		if(exp == 'others'){
@@ -76,6 +97,14 @@ $(document).ready(function(){
 			dateFormat: 'dd-M-yy'
 		});
 	});	
+
+	$(function(){
+		$('#id_valid_date').datepicker({
+			changeMonth: true,
+		    changeYear: true,
+			dateFormat: 'dd-M-yy'
+		});
+	});		
 			
 	$('#id_submit_resources').click(function(){	
 		var ipData = prepareInputData();
@@ -170,6 +199,7 @@ function loadCites(country_id){
 				$('#id_your_city').append("<option value='"+city_id+"'>"+					
 					city_name+"</option>");								
 			}
+			$('#id_country_code').val('+'+citiesInfo.country_mobile_code);
 			hideAjaxLoader();
 		},
 		complete: function(XHR, status){   //handle session out
@@ -376,4 +406,73 @@ function fileUpload(fileName, fileTagName){
 		});	
 					
 	}	
+}
+
+function addBox(ident)
+{
+	//alert(IS_OPS);
+	var count;
+	TYPE_PROJ_CNT++;
+	count = TYPE_PROJ_CNT;
+	
+	var strBox = "<div id='id_type_proj_div_"+count+"'><input class='btn_dblue ui-button ui-widget ui-state-default ui-corner-all'"+
+                 	  "style = 'font-size:14px !important;width:40px' id='id_add_button' type='button' "+
+	                  "value='-' name='remove_button' role='button' aria-disabled='false' onclick=removeBox("+"'id_type_proj_div_"+count+"'"+")> "+
+                                       
+                     "<select class='resources_input_select mandatory' style = 'width:246px;height:30px' name='type_of_projects' id='id_type_of_projects_"+
+					 count+"' onChange=showOthers('id_type_of_projects_"+count+"')> "+
+                     "<option value=''>--- Select Type of Projects ---</option>"+
+                     "<option value='drillship'>Drillship</option>"+     
+                     "<option value='jack_up'>Jack Up</option>"+
+                     "<option value='semi_submersible'>Semi Submersible</option>"+
+                     "<option value='tender_barge'>Tender Barge</option>"+ 
+					 "<option value='others'>Others</option>"+     
+                     "</select> "+
+					 "<input type='text' title = 'Type of Projects' placeholder = 'Others'"+ 
+                     "name='others_type_of_projects' id='id_others_type_of_projects_"+count+"' maxlength='25' class='mpps_input_others collapsed'> "+                                       
+                      "<select class='resources_input_select mandatory' style = 'width:246px;height:30px' name='team_size' id='id_team_size_"+count+"'>"+
+                      "  <option value=''>--- Select Project Team Size ---</option>";
+	for(var i=3; i<=30; i++){
+		strBox += "<option value='"+i+"'>"+i+" Members</option>";
+	}
+	strBox += "</select> ";
+	
+	strBox += "<select class='resources_input_select mandatory' style = 'width:246px;height:30px' name='years_of_exp' id='id_years_of_exp_"+count+"'onChange=addExperience()>"+
+                      "  <option value=''>--- Select Years of experience ---</option>";
+	for(var i=1; i<=30; i++){
+		strBox += "<option value='"+i+"'>"+i+" Years</option>";
+	}	
+	
+    strBox += "</select></div>"; 
+	
+	$("#"+'id_type_projects_div').append(strBox);
+	
+	$("input:button, input:submit, input:reset").button();
+}
+
+function removeBox(element)
+{
+	$('#'+element).remove();
+	TYPE_PROJ_CNT--;
+	addExperience();
+}
+
+function showOthers(element){
+	var div_id = element;
+	var count =  div_id.substr(div_id.lastIndexOf('_')+1);
+	var exp = $('#'+element).val();
+	if(exp == 'others'){
+		$("#id_others_type_of_projects_"+count).show();
+	}
+	else{
+		$("#id_others_type_of_projects_"+count).hide();
+	}
+}
+
+function addExperience(){
+	var total_exp = 0;
+	$('select[id^="id_years_of_exp_"]').each(function(){
+		total_exp += Number($(this).val());
+	});
+	$('#id_lbl_exp').text(total_exp);
 }

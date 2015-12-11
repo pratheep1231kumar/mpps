@@ -70,6 +70,8 @@ class Mpps_ctl extends CI_Controller {
 	{
 		$country_id = $this->input->post('country_id');
 		$citiesFormatted = $this->Mpps_mdl->getCities($country_id);
+		$mobile_country_code = $this->Mpps_mdl->getCountryMobileCode($country_id);
+		$citiesFormatted['country_mobile_code'] = $mobile_country_code;
 		echo json_encode($citiesFormatted);
 	}
 
