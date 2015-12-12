@@ -3,7 +3,7 @@ TYPE_PROJ_CNT = 0;
 $(document).ready(function(){
 	loadCountries();
 
-	$("#id_terms_cond, #id_label_terms").click(function(){
+	$("#id_terms_cond").click(function(){
 		if($(this).is(':checked')){
 			$('#login_button_div').show();
 		}else{

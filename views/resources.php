@@ -150,7 +150,9 @@
                      </select>
                                      
                    </div>
-				   <h4>Total Experience : <label name ='lbl_exp' style="color: #2A2B8C !important;" id='id_lbl_exp'>0</label> Years</h4>
+				   <div style="margin-top:3px">
+                   		<h3>Total Experience : <label name ='lbl_exp' style="color: #2A2B8C !important;" id='id_lbl_exp'>0</label> Years</h3>
+                   </div>
 
 				<!--<select class="resources_input_select mandatory" name="discipline" id="id_discipline">
                     <option value="">--- Select Discipline ---</option>
@@ -238,9 +240,9 @@
                  <form name="upload_files" id="id_upload_files" 
             		method="POST" enctype="multipart/form-data"> 
                     
-                     <label id='id_label_resume' class="upload_label"> Upload Cover Letter : </label>
-                     <input type="file" title = "Cover Letter" placeholder = "Upload Cover Letter" 
-                        name="cv_letter" id="id_cv_letter"  class="mpps_input_file" accept="application/pdf/word/jpg"></br>
+                     <!--<label id='id_label_cv' class="textarea_label"> Enter Cover Letter : </label>-->
+                     <textarea title = "Cover Letter" placeholder = "Enter Cover Letter" 
+                        name="cv_letter" id="id_cv_letter"  class="mpps_textarea"></textarea></br>
                                       
                      <label id='id_label_resume' class="upload_label"> Upload Your Resume/CV : </label>
                      <input type="file" title = "Resume" placeholder = "Upload Your Resume" 

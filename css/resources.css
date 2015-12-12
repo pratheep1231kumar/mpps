@@ -71,6 +71,15 @@
 	padding: 4px 12px;
 }
 
+.mpps_textarea {
+    border: 1px solid #5fc7e0;
+    margin-top: 10px;
+	margin-right: 15px;
+    width: 605px;
+    height: 130px;
+	padding: 4px 12px;
+}
+
 .upload_label{
 	margin-right: 10px;
 	width: 190px;
@@ -112,4 +121,7 @@
    filter: alpha(opacity = 50);
 }​
 
+.div_total_exp {
+	margin-top: 5px;
+}
 
