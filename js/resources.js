@@ -86,7 +86,8 @@ $(document).ready(function(){
 		$('#id_av_date').datepicker({
 			changeMonth: true,
 		    changeYear: true,
-			dateFormat: 'dd-M-yy'
+			dateFormat: 'dd-M-yy',
+			 minDate: 0
 		});
 	});
 	

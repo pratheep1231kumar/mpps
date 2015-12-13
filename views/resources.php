@@ -14,13 +14,13 @@
 	</div>-->
    	<div id="resources_inner_main_content">
 		<p align="justify">
-            <b><u>We understand the real efforts in project execution and success, hence this portal is for supporting the industry at low budget, optimised schedule, uncompromised SAFETY Maximising Recovery plans of the Industry</u></b>
+            <b><u>We understand the real efforts in project execution and success, hence this portal is for supporting the industry at low budget, optimised schedule, uncompromised SAFETY and contribution in Maximising Recovery plans of the Industry</u></b>
     		</br></br>
             Strictly professionals only can input the information at free of cost
     		</br></br>
             Employers registered with IADC or any professional organisations can contact MPPS to choose workforce at free of cost.
      		</br></br>
-            <i>Please note the remuneration will be low if selected through us "sustainability than profitability"</i>
+            <i>Please note the remuneration will be low if selected through us, "sustainability than profitability"</i>
         </p>
     </div>    
    	<div id="careers_form" class="resources_left_div_form">
@@ -71,7 +71,7 @@
   
 
             	 <select class="resources_input_select mandatory" name="location_of_projects" id="id_location_of_projects">
-                    <option value="">--- Select Location of Projects ---</option>
+                    <option value="">--- Select Project Location ---</option>
                  </select>
                  
 				 <div id = 'id_type_projects_div'>
@@ -81,7 +81,7 @@
                                        
                      <select class="resources_input_select mandatory" style = "width:246px;height:30px" name="type_of_projects" 
                      	id="id_type_of_projects_0" onChange="showOthers('id_type_of_projects_0')">
-                        <option value="">--- Select Type of Projects ---</option>
+                        <option value="">--- Select Project Type ---</option>
                         <option value="drillship">Drillship</option>                    
                         <option value="jack_up">Jack Up</option>
                         <option value="semi_submersible">Semi Submersible</option> 
@@ -201,7 +201,7 @@
                  	style="width:110px;height:30px"
                  	name="country_code" id="id_country_code" maxlength="25" class="mpps_input mandatory">
 
-        		 <input type="text" title = "Mobile Phone" placeholder = "Mobile Number (999999999) " 
+        		 <input type="text" title = "Mobile Phone" placeholder = "Mobile Number " 
                  	style="width:273px;height:30px"
                  	name="mobile_phone" id="id_mobile_phone" maxlength="25" class="mpps_input mandatory">
 
@@ -255,7 +255,7 @@
                         name="supp_doc" id="id_supp_doc"  class="mpps_input_file" accept="application/pdf/word/jpg" />
 					 </br></br>
                      <input type="checkbox" name="terms_cond" id="id_terms_cond"> 
-                     <span id='id_label_terms' class="cursor">I concerned my data can be shared with MPPS Authorized employees.</span>
+                     <span id='id_label_terms' class="cursor">I consent my data can be shared with MPPS Authorized Employers.</span>
                  </form>
              </fieldset>             
         <!-- </form> -->
