@@ -29,7 +29,8 @@
             	 <div id='id_error' class='error_note'></div>
             	 </br>
                  <h5>Your Project Experience:</h5>
-            	 <select class="resources_input_select mandatory" name="project_role" id="id_project_role">
+            	 <div>
+                 <select class="resources_input_select mandatory" name="project_role" id="id_project_role">
                     <option value="">--- Select Current/Past Project Role ---</option>
                     <option value="Project Accountant">Project Accountant</option>
                     <option value="Project Administrator">Project Administrator</option>
@@ -72,7 +73,7 @@
 
             	 <select class="resources_input_select mandatory" name="location_of_projects" id="id_location_of_projects">
                     <option value="">--- Select Project Location ---</option>
-                 </select>
+                 </select></div>
                  
 				 <div id = 'id_type_projects_div'>
 	                 <input class="btn_dblue ui-button ui-widget ui-state-default ui-corner-all"
@@ -177,7 +178,7 @@
                  
                  </br>
                  <h5>Your Personal Details:</h5>
-
+				 <div>
 				 <input type="text" title = "Prefix" placeholder = "Prefix" 
                  	name="prefix" id="id_prefix" maxlength="25" class="mpps_input mpps_input_small">                  
         		 <input type="text" title = "First Name" placeholder = "First Name" 
@@ -188,15 +189,17 @@
                  	name="last_name" id="id_last_name" maxlength="25" class="mpps_input mpps_input_medium mandatory">                  
 				 <input type="text" title = "Suffix" placeholder = "Suffix" 
                  	name="suffix" id="id_suffix" maxlength="25" class="mpps_input mpps_input_small">                  
-
+				 </div>
+                 <div>
             	 <select class="resources_input_select mandatory" name="your_country" id="id_your_country">
                     <option value="">--- Select Country Of Residence ---</option>
                  </select>
 
             	 <select class="resources_input_select mandatory" name="your_city" id="id_your_city">
                     <option value="">--- Select City Of Residence ---</option>
-                 </select></br>
-
+                 </select>
+				 </div>
+                 <div>
         		 <input type="text" title = "Country Code" placeholder = "Code (+44) " 
                  	style="width:110px;height:30px"
                  	name="country_code" id="id_country_code" maxlength="25" class="mpps_input mandatory">
@@ -207,13 +210,15 @@
 
         		 <input type="text" title = "Home Phone" placeholder = "Home Phone Number" 
                  	name="home_phone" id="id_home_phone" maxlength="25" class="mpps_input_full">     
-
+				 </div>
+                 <div>
         		 <input type="text" title = "E-mail" placeholder = "Email" 
                  	name="email_id" id="id_email_id" maxlength="50" class="mpps_input_full mandatory">                                
 
         		 <input type="text" title = "Enter Available Date" placeholder = "Available Date (DD-MMM-YYYY) " 
                  	name="av_date" id="id_av_date" maxlength="25" class="mpps_input_full mandatory">             
-
+				 </div>
+                 <div>
             	 <select class="resources_input_select mandatory" name="qualification" id="id_qualification">
                     <option value="">--- Select Highest Degree Attained---</option>
                     <option value="Master's">Master's</option>
@@ -223,7 +228,9 @@
 
         		 <input type="text" title = "Offshore medical expiry date" placeholder = "Offshore Medical Expiry Date (DD-MMM-YYYY) " 
                  	name="med_date" id="id_med_date" maxlength="25" class="mpps_input_full">
-
+                 </div>
+				
+                 <div>
             	 <select class="resources_input_select" name="off_training" id="id_off_training">
                     <option value="">--- Select Offshore Training ---</option>
                     <option value="BOSIET">BOSIET valid upto</option>
@@ -234,8 +241,8 @@
            		 <input type="text" title = "Valid Date" placeholder = "Valid Date (DD-MMM-YYYY) " 
                  	name="valid_date" id="id_valid_date" maxlength="25" class="mpps_input_full">
                     
-
-                 </br></br>
+				 </div>
+                 </br>
                  <h5>Attachments (word, pdf, jpeg - Max size(5 MB)) :</h5>
                  <form name="upload_files" id="id_upload_files" 
             		method="POST" enctype="multipart/form-data"> 
