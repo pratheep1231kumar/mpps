@@ -101,7 +101,7 @@
 }
 
 
-#create_button, #id_submit_resources, #id_login{
+#create_button, #id_submit_resources, #id_review_submit_resources, #id_login{
 	width: 403px;
 }
 
@@ -125,3 +125,39 @@
 	margin-top: 5px;
 }
 
+#id_details_table{
+	margin:5px 0px 5px 0px;
+	padding:5px;
+    width: 100%;
+}
+
+.td_review_details {
+	font-weight:bold;
+}
+
+#back_button_div{
+	margin-top:5px;
+	width:300px;
+}
+
+.review_display{
+	border: 3px solid #AAA;
+	width:360px;
+}
+
+#id_review_table{
+	background-color: #E6E6E6;
+	padding: 5px 0px 5px 5px;
+    margin: 5px 0px 5px 0px;
+	width: 100%;
+}
+
+#id_exp_table td, #id_trng_table td{
+	boder: 1px solid black;
+}
+
+#id_details_table td {
+    width: 100px;
+    padding: 3px;
+	boder: 1px solid black;
+}

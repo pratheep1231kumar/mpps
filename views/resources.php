@@ -230,8 +230,11 @@
                  	name="med_date" id="id_med_date" maxlength="25" class="mpps_input_full">
                  </div>
 				
-                 <div>
-            	 <select class="resources_input_select" name="off_training" id="id_off_training">
+                 <div id='id_div_offshore'>
+                  <input class="btn_dblue ui-button ui-widget ui-state-default ui-corner-all"
+                 	  style = "font-size:14px !important;width:40px" id="id_add_button" type="button" 
+	                  value="+" name="add_button" role="button" aria-disabled="false" onclick="addBoxOffshore('id_div_offshore')">
+            	 <select class="resources_input_select" style="width:355px !important" name="off_training" id="id_off_training_0">
                     <option value="">--- Select Offshore Training ---</option>
                     <option value="BOSIET">BOSIET valid upto</option>
                     <option value="HUET">HUET  valid upto</option>
@@ -239,9 +242,10 @@
                  </select>
 
            		 <input type="text" title = "Valid Date" placeholder = "Valid Date (DD-MMM-YYYY) " 
-                 	name="valid_date" id="id_valid_date" maxlength="25" class="mpps_input_full">
+                 	name="valid_date" id="id_valid_date_0" maxlength="25" class="mpps_input_full">
                     
 				 </div>
+                 
                  </br>
                  <h5>Attachments (word, pdf, jpeg - Max size(5 MB)) :</h5>
                  <form name="upload_files" id="id_upload_files" 
@@ -260,22 +264,33 @@
                      <label id='id_label_resume' class="upload_label"> Supporting Document (if any) : </label>
                      <input type="file" title = "Supporting Document" placeholder = "Supporting Document (if any)" 
                         name="supp_doc" id="id_supp_doc"  class="mpps_input_file" accept="application/pdf/word/jpg" />
-					 </br></br>
-                     <input type="checkbox" name="terms_cond" id="id_terms_cond"> 
-                     <span id='id_label_terms' class="cursor">I consent my data can be shared with MPPS Authorized Employers.</span>
                  </form>
              </fieldset>             
         <!-- </form> -->
-        <div id="login_button_div" class="collapsed">
-	        <input class="btn_dblue ui-button ui-widget ui-state-default ui-corner-all" id="id_submit_resources" type="button" 
-            	value="Submit Details" name="submit_resources" role="button" aria-disabled="false">
+        </br>
+        <div id="login_button_div">
+	        <input class="btn_dblue ui-button ui-widget ui-state-default ui-corner-all" id="id_review_submit_resources" type="button" 
+            	value="Review And Submit" name="review_submit_resources" role="button" aria-disabled="false" onClick="showReviewPage()">
         </div>
 
         <!-- Hidden variables... -->
         <input type='text' name='resume_file_hidden' id = 'id_resume_file_hidden' class="collapsed"/>
-        <input type='text' name='cv_letter_hidden' id = 'id_cv_letter_hidden' class="collapsed"/>
         <input type='text' name='supp_doc_hidden' id = 'id_supp_doc_hidden' class="collapsed"/>
         
+    </div>
+    <div id="review_form" class='collapsed'>
+         <div id="back_button_div">
+                <input class="btn_dblue ui-button ui-widget ui-state-default ui-corner-all" id="id_back" type="button" 
+                    value="Back" name="back" role="button" aria-disabled="false" onClick="backToForm()">
+         </div>
+         <div id="id_review_table"></div>
+         <input type="checkbox" name="terms_cond" id="id_terms_cond"> 
+         <span id='id_label_terms' class="cursor">I consent my data can be shared with MPPS Authorized Employers.</span>
+         </br></br>
+         <div id="submit_resources_div" class="collapsed">
+                <input class="btn_dblue ui-button ui-widget ui-state-default ui-corner-all" id="id_submit_resources" type="button" 
+                    value="Submit Details" name="submit_resources" role="button" aria-disabled="false">
+         </div>    
     </div>
 </div>
 
