@@ -116,7 +116,7 @@ class Mpps_mdl extends CI_Model {
 		$mail_body .= "<tr><td>Offshore Medical Expiry Date : </td><td>".$input_data['med_date']."</td></tr>";
 		$mail_body .= "</table>";	
 		if($input_data['type_proj_cnt'] > 0){
-			$mail_body = "</br></br><table border='1'>";
+			$mail_body .= "</br></br><table border='1'>";
 			$mail_body .= "<tr><td><b>Project Type</b></td>";
 			$mail_body .= "<td><b>Team Size</b></td>";
 			$mail_body .= "<td><b>Experience (Years)</b></td></tr>";
@@ -128,7 +128,7 @@ class Mpps_mdl extends CI_Model {
 			$mail_body .= "</table>";				
 		}
 		if($input_data['off_trng_cnt'] > 0){
-			$mail_body = "</br></br><table border='1'>";
+			$mail_body .= "</br></br><table border='1'>";
 			$mail_body .= "<tr><td><b>Offshore Training</b></td>";
 			$mail_body .= "<td><b>Valid Date</b></td></tr>";
 			for($i=0; $i< $input_data['off_trng_cnt']; $i++){
