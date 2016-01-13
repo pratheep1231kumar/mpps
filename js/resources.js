@@ -304,7 +304,7 @@ function prepareInputData()
 	$('select[id^="id_type_of_projects_"]').each(function(){
 		var element = $(this).attr('id');
 		var count =  element.substr(element.lastIndexOf('_')+1);
-		ipData['type_of_projects_'+type_proj_cnt] = $(this).val();
+		ipData['type_of_projects_'+type_proj_cnt] = $('#'+element+' option:selected').text();
 		if(ipData['type_of_projects_'+type_proj_cnt] == 'others'){
 			ipData['type_of_projects_'+type_proj_cnt] = $('#id_others_type_of_projects_'+count).val();
 		}

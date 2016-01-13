@@ -66,55 +66,117 @@ class Mpps_mdl extends CI_Model {
 	
 	public function submitResources($input_data)
 	{
+
+		#Prepare Data for DB insertion
+		$insert_data = array();
+		$insert_data['project_role'] = $input_data['project_role'];
+		$insert_data['location_of_projects'] = $input_data['location_of_projects'];
+		$insert_data['years_of_exp'] = $input_data['total_years_of_exp'];
+		$insert_data['user_name'] = $input_data['prefix'].' '.$input_data['first_name'].' '.
+			$input_data['middle_name'].' '.$input_data['last_name'].' '.$input_data['suffix'];
+		$insert_data['your_country'] = $input_data['your_country'];
+		$insert_data['your_city'] = $input_data['your_city'];
+		$insert_data['mobile_phone'] = $input_data['mobile_phone'];
+		if($input_data['home_phone'] != '')
+		{
+			$insert_data['home_phone'] = $input_data['home_phone'];
+		}
+		$insert_data['email_id'] = $input_data['email_id'];
+		$insert_data['av_date'] = date('Y-m-d',strtotime($input_data['av_date']));
+		$insert_data['qualification'] = $input_data['qualification'];
+		if($input_data['med_date'] != '')
+		{
+			$insert_data['med_date'] = date('Y-m-d',strtotime($input_data['med_date']));
+		}
+		if($input_data['cv_letter'] != '')
+		{
+			$insert_data['cv_letter'] = $input_data['cv_letter'];
+		}
+		$insert_data['resume_file'] = $input_data['resume_file'];
+		if($input_data['supp_doc'] != '')
+		{
+			$insert_data['supp_doc'] = $input_data['supp_doc'];
+		}
+		
+		
+		#Prepare for e-mail body.
 		$retStat;
 		$attachments = array();
 		$mail_body = "<table border='1'>";
-		$mail_body .= "<tr><td>Project Role : </td><td>".$input_data['project_role']."</td></tr>";
-		$mail_body .= "<tr><td>Years of Exp : </td><td>".$input_data['years_of_exp']."</td></tr>";
-		$mail_body .= "<tr><td>No of Projects : </td><td>".$input_data['no_of_projects']."</td></tr>";
-		$mail_body .= "<tr><td>Type of Projects : </td><td>".$input_data['type_of_projects']."</td></tr>";
-		$mail_body .= "<tr><td>Location of Projects : </td><td>".$input_data['location_of_projects']."</td></tr>";
-		$mail_body .= "<tr><td>Discipline : </td><td>".$input_data['discipline']."</td></tr>";
-		$mail_body .= "<tr><td>Team Size : </td><td>".$input_data['team_size']."</td></tr>";
-		$mail_body .= "<tr><td>Name : </td><td>".$input_data['user_name']."</td></tr>";
-		$mail_body .= "<tr><td>Country : </td><td>".$input_data['your_country']."</td></tr>";
-		$mail_body .= "<tr><td>City : </td><td>".$input_data['your_city']."</td></tr>";
+		$mail_body .= "<tr><td>Project Role : </td><td>".$insert_data['project_role']."</td></tr>";
+		$mail_body .= "<tr><td>Years of Exp : </td><td>".$insert_data['years_of_exp']."</td></tr>";
+		$mail_body .= "<tr><td>Location of Projects : </td><td>".$insert_data['location_of_projects']."</td></tr>";
+		$mail_body .= "<tr><td>Name : </td><td>".$insert_data['user_name']."</td></tr>";
+		$mail_body .= "<tr><td>Country : </td><td>".$insert_data['your_country']."</td></tr>";
+		$mail_body .= "<tr><td>City : </td><td>".$insert_data['your_city']."</td></tr>";
 		$mail_body .= "<tr><td>Available Date : </td><td>".$input_data['av_date']."</td></tr>";
-		$mail_body .= "<tr><td>Mobile Phone : </td><td>".$input_data['mobile_phone']."</td></tr>";
-		$mail_body .= "<tr><td>Email Id : </td><td>".$input_data['email_id']."</td></tr>";
+		$mail_body .= "<tr><td>Mobile Phone : </td><td>".$insert_data['mobile_phone']."</td></tr>";
+		$mail_body .= "<tr><td>Email Id : </td><td>".$insert_data['email_id']."</td></tr>";
 		$mail_body .= "<tr><td>Home Phone : </td><td>".$input_data['home_phone']."</td></tr>";		
 		$mail_body .= "<tr><td>Offshore Medical Expiry Date : </td><td>".$input_data['med_date']."</td></tr>";
-		$mail_body .= "<tr><td>Offshore Training : </td><td>".$input_data['off_training']."</td></tr>";
-		$mail_body .= "</table>";
+		$mail_body .= "</table>";	
+		if($input_data['type_proj_cnt'] > 0){
+			$mail_body = "</br></br><table border='1'>";
+			$mail_body .= "<tr><td><b>Project Type</b></td>";
+			$mail_body .= "<td><b>Team Size</b></td>";
+			$mail_body .= "<td><b>Experience (Years)</b></td></tr>";
+			for($i=0; $i< $input_data['type_proj_cnt']; $i++){
+				$mail_body .= "<tr><td>".$input_data['type_of_projects_'.$i]."</td>";
+				$mail_body .= "<td>".$input_data['team_size_'.$i]."</td>";
+				$mail_body .= "<td>".$input_data['years_of_exp_'.$i]."</td></tr>";
+			}
+			$mail_body .= "</table>";				
+		}
+		if($input_data['off_trng_cnt'] > 0){
+			$mail_body = "</br></br><table border='1'>";
+			$mail_body .= "<tr><td><b>Offshore Training</b></td>";
+			$mail_body .= "<td><b>Valid Date</b></td></tr>";
+			for($i=0; $i< $input_data['off_trng_cnt']; $i++){
+				$mail_body .= "<tr><td>".$input_data['off_training_'.$i]."</td>";
+				$mail_body .= "<td>".$input_data['valid_date_'.$i]."</td></tr>";
+			}
+			$mail_body .= "</table>";				
+		}
+
 		$mail_subject = "resource details submitted";		
 		$mail_to = RESOURCES_MAIL_TO;
-		
 		#Attaching Resume File
 		if($input_data['resume_file'] != '')
 		{
 			$attachments['resume_file'] = $input_data['resume_file'];
-		}
-		if($input_data['cv_letter'] != '')
-		{
-			$attachments['cv_letter'] = $input_data['cv_letter'];
 		}
 		if($input_data['supp_doc'] != '')
 		{
 			$attachments['supp_doc'] = $input_data['supp_doc'];
 		}
 		
-		
 		try
 		{	
-			$input_data['av_date'] = date('Y-m-d',strtotime($input_data['av_date']));
-			if($input_data['med_date'] != '')
-			{
-				$input_data['med_date'] = date('Y-m-d',strtotime($input_data['med_date']));
+			$result = $this->db->insert('mpps_innovators.resources', $insert_data);
+			$last_insert_id = $this->db->insert_id();
+			
+			#Insert Project Details
+			if($input_data['type_proj_cnt'] > 0){
+				for($i=0; $i< $input_data['type_proj_cnt']; $i++){
+					$project_data = array();
+					$project_data['resource_id'] = $last_insert_id;
+					$project_data['project_type'] = $input_data['type_of_projects_'.$i];
+					$project_data['team_size'] = $input_data['team_size_'.$i];
+					$project_data['years_of_exp'] = $input_data['years_of_exp_'.$i];
+					$result = $this->db->insert('mpps_innovators.resources_projects', $project_data); 
+				}
 			}
-			else{
-				unset($input_data['med_date']);
-			}
-			$this->db->insert('mpps_innovators.resources', $input_data);
+			#Insert Training Details
+			if($input_data['off_trng_cnt'] > 0){
+				for($i=0; $i< $input_data['off_trng_cnt']; $i++){
+					$trainings_data = array();
+					$trainings_data['resource_id'] = $last_insert_id;
+					$trainings_data['offshore_training'] = $input_data['off_training_'.$i];					
+					$trainings_data['valid_upto'] = date('Y-m-d',strtotime($input_data['valid_date_'.$i]));
+					$result = $this->db->insert('mpps_innovators.resources_trainings', $trainings_data); 					
+				}
+			}			
+			
 			$status = $this->send($mail_to, $mail_subject, $mail_body, $attachments);
 			$retStat=array("status" => 1);
 		}

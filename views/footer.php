@@ -61,9 +61,29 @@
             <div class="copy">&copy; Copyright MPPS - Innovators 2015 - 2016</div>
             <div class="clear"></div>
            </div>
+           <div style="margin-left:230" class="fb-page" data-href="https://www.facebook.com/MPPSInnovators" data-tabs="timeline" data-width="500" data-height="70" 
+           	data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" 
+           	data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/MPPSInnovators"><a href="https://www.facebook.com/MPPSInnovators">MPPS Innovators</a></blockquote></div>
+           </div>           
+           <div id="google_search">
+                            <script>
+                          (function() {
+                            var cx = '013585377435336598979:xj_vouqjrjg';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                '//cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                          })();
+                        </script>
+                        <gcse:search></gcse:search>
+            </div>           
 	    </div>
                 
 </div>
+
 </body>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
