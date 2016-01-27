@@ -1740,3 +1740,12 @@ a.footer_link, a.footer_link:active{
 	cursor:pointer;	
 }
 
+#google_search{
+	float: right;
+    width: 455;
+    height: 93;
+    padding-top: 33;
+    padding-bottom: 3;
+    background-color: gray;
+}
+

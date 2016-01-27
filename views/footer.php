@@ -61,7 +61,7 @@
             <div class="copy">&copy; Copyright MPPS - Innovators 2015 - 2016</div>
             <div class="clear"></div>
            </div>
-           <div style="margin-left:230" class="fb-page" data-href="https://www.facebook.com/MPPSInnovators" data-tabs="timeline" data-width="500" data-height="70" 
+           <div class="fb-page" data-href="https://www.facebook.com/MPPSInnovators" data-tabs="timeline" data-width="500" data-height="70" 
            	data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" 
            	data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/MPPSInnovators"><a href="https://www.facebook.com/MPPSInnovators">MPPS Innovators</a></blockquote></div>
            </div>           
