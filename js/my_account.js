@@ -148,14 +148,10 @@ function formatDetails(nTr )
 		
 		html += "<table class='resource_margin_bottom' id='resource_details_table' cellpadding='0' width='100%' cellspacing='0' border='0'  >"+
 			"<tr><td><b>Years Of Exp</b></td><td>: "+ResourceData.years_of_exp+"</td>"+
-			"<td ><b>No Of Projects</b></td><td>: "+ResourceData.no_of_projects+"</td>"+
-			"<td><b>Type Of Projects</b></td><td>: "+ResourceData.type_of_projects+"</td>"+
+			"<td><b>Home Phone</b></td><td>: "+ResourceData.home_phone+"</td>"+
 			"<tr><td><b>Location Of Projects</b></td><td>: "+ResourceData.location_of_projects+"</td>"+
-			"<td><b>Discipline</b></td><td>: "+ResourceData.discipline+"</td>"+
 			"<td><b>Email</b></td><td>: "+ResourceData.email_id+"</td>"+
 			"<tr><td><b>Mobile</b></td><td>: "+ResourceData.mobile_phone+"</td>"+
-			"<td><b>Home Phone</b></td><td>: "+ResourceData.home_phone+"</td>"+
-			"<td><b>Offshore Training</b></td><td>: "+ResourceData.off_training+"</td></td></tr>"+
 			"</table>";					
 	}
 

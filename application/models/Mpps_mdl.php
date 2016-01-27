@@ -324,7 +324,7 @@ class Mpps_mdl extends CI_Model {
 			array_push($resourcesRequestData, $resourcesRequest->created_on);
 			array_push($resourcesRequestData, $resourcesRequest->user_name);
 			array_push($resourcesRequestData, $resourcesRequest->project_role);
-            array_push($resourcesRequestData, $resourcesRequest->discipline);
+            array_push($resourcesRequestData, $resourcesRequest->years_of_exp);
 			array_push($resourcesRequestData, $resourcesRequest->your_country);
 			array_push($resourcesRequestData, $resourcesRequest->your_city);
 			$moreOption = "<img src='../images/icon_down.gif'".
@@ -338,11 +338,7 @@ class Mpps_mdl extends CI_Model {
 			$extraDetails['created_on'] = $resourcesRequest->created_on;
 			$extraDetails['project_role'] = $resourcesRequest->project_role;
 			$extraDetails['years_of_exp'] = $resourcesRequest->years_of_exp;
-			$extraDetails['no_of_projects'] = $resourcesRequest->no_of_projects;
-			$extraDetails['type_of_projects'] = $resourcesRequest->type_of_projects;
 			$extraDetails['location_of_projects'] = $resourcesRequest->location_of_projects;
-			$extraDetails['discipline'] = $resourcesRequest->discipline;
-			$extraDetails['team_size'] = $resourcesRequest->team_size;
 			$extraDetails['user_name'] = $resourcesRequest->user_name;
 			$extraDetails['your_country'] = $resourcesRequest->your_country;
 			$extraDetails['your_city'] = $resourcesRequest->your_city;
@@ -351,7 +347,6 @@ class Mpps_mdl extends CI_Model {
 			$extraDetails['email_id'] = $resourcesRequest->email_id;
 			$extraDetails['home_phone'] = $resourcesRequest->home_phone;
 			$extraDetails['med_date'] = $resourcesRequest->med_date;
-			$extraDetails['off_training'] = $resourcesRequest->off_training;
 			$extraDetails['resume_file'] = $resourcesRequest->resume_file;
 			$extraDetails['cv_letter'] = $resourcesRequest->cv_letter;
 			$extraDetails['supp_doc'] = $resourcesRequest->supp_doc;
@@ -367,11 +362,11 @@ class Mpps_mdl extends CI_Model {
 		$resourcesRequests = array();
 		//Prepare sql query to fetch active ARO records.
         $sql = "SELECT id, DATE_FORMAT( created_on, '%d-%b-%Y %H:%i' ) AS created_on, 
-				project_role, years_of_exp, no_of_projects, type_of_projects, 
-				location_of_projects, discipline, team_size, user_name, your_country, 
+				project_role, years_of_exp, 
+				location_of_projects,   user_name, your_country, 
 				your_city, av_date, mobile_phone, email_id, home_phone, med_date, 
-				off_training, resume_file, cv_letter, supp_doc
-				FROM mpps_innovators.resources ORDER BY created_on DESC	";
+				resume_file, cv_letter, supp_doc
+				FROM mpps_innovators.resources ORDER BY created_on DESC";
 		
 		//Execute query
 		$query = $this->db->query($sql);

@@ -13,7 +13,7 @@ $(document).ready(function(){
                 <th align='left' class="ui-state-default" maxwidth='30'>Created On</th>
                 <th align='left' class="ui-state-default" maxwidth='30'>Name</th>
                 <th align='left' class="ui-state-default" maxwidth='30'>Project Role</th>
-                <th align='left' class="ui-state-default" maxwidth='30'>Discipline</th>
+                <th align='left' class="ui-state-default" maxwidth='30'>Experience</th>
                 <th align='left' class="ui-state-default" maxwidth='30'>Country</th>
                 <th align='left' class="ui-state-default" width='100'>City</th>
                 <th align='left' class="ui-state-default"></th>
