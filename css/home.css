@@ -120,7 +120,7 @@ select {
 
 #header #my_log_in {
 	position:absolute;
-	top:20px; 
+	top:53px; 
 	right:0px;
 	vertical-align:middle;
 	display: inline; 	
@@ -1069,7 +1069,7 @@ a.jtxfooter_link:hover {
 	padding-bottom: 5px !important;
 	padding-top: 5px !important;
 	font-family:calibri;
-	font-size:18px;
+	font-size:18px;	
 }
 
 #contact_inner_main_content p{
@@ -1749,3 +1749,28 @@ a.footer_link, a.footer_link:active{
     background-color: gray;
 }
 
+.vision_mission_header{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #2096b2;
+    font-weight: bold;
+}
+
+.vision_mission_header_space{
+	margin-left: 450;
+	margin-top:15px;
+
+}
+
+.core_values_space{
+	margin-left: 410;
+	margin-top:15px;
+}
+
+.core_values_letter_space{
+	margin: 15px 30px 15px 350px
+}
+
+.vision_content_space{
+	margin-left: 200;
+}

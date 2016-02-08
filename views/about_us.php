@@ -22,15 +22,6 @@
         	This is unique experience and we are proud to announce that "WE CAN DO TOGETHER". 
         </p>
 
-        <p align="justify">
-			<b>Mission</b> - Support offshore organizations to accomplish projects at low overhead costs
-        </p>
-
-        <p align="justify">
-        	<b>Vision</b> - Grow together along with offshore industry through strong cluster collaboration & partnership with service providers globally as well
-            as support and develop local continent 
-        </p>        
-
     <div id="our_team">
     	<h5>Our Team</h5>
         <table id="about_us_table" class="display">

@@ -48,16 +48,8 @@
                 	value="My Log In" name="create" role="button" aria-disabled="false"/>
             </a>
         </div>
-		<div id="facebook">
-		     <a href="https://www.facebook.com/MPPSInnovators" target="_blank">
-		     <img src="../images/facebook.png" alt="Follow us on Facebook">
-			 Follow us</a>
-    	</div>
-		<div id="twitter">
-		     <a href="https://twitter.com/search?q=mpps%20innovators&src=typd" target="_blank">
-		     <img src="../images/twitter_icon.gif" alt="Follow us on Twitter">
-			  Follow us </a>
-    	</div>
+
+
 	</div>
 
 
@@ -70,8 +62,12 @@
 	  <li id="menuItem2" class="mega">
 	  	<h2><a href="about_us.php" class="new_link">About Us</a></h2>
 	  </li>
+ 
+ 	  <li id="menuItem3" class="mega">
+	  	<h2><a href="vision_mission.php" class="new_link">Vision & Mission</a></h2>
+	  </li>     
 
-	  <li id="menuItem3" class="mega">
+	  <li id="menuItem4" class="mega">
 	  	<h2><a href="services_we_support.php" class="new_link">Services We Support</a></h2>
 	  	<div class="megapanel megapanelMenu3" style="width: 600px; display: none;">
 	  		<div class="col" style="width:270px;">
@@ -89,11 +85,11 @@
 	     </div>
 	  </li>
 
-	   <li id="menuItem4" class="mega">
+	   <li id="menuItem5" class="mega">
 	   		<h2><a href="resources.php" class="new_link">Resources</a></h2>
 	   </li>
 
-	   <li id="menuItem5" class="mega">
+	   <li id="menuItem6" class="mega">
 	   	<h2><a href="contact.php" class="new_link">Contact Us</a></h2>
 	   </li> 
 	</ul>
